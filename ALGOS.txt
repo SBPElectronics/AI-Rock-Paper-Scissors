@@ -1,0 +1,33 @@
+The Look-Back Algorithm:
+1. Algorithm 1 looks at all the moves you've made in the game so far.
+It counts how many times you used Rock, Paper, or Scissors.
+Whichever one you used the most, it assumes you'll play that again.
+Then the bot plays the move that beats it.
+
+Example:
+If you played Rock 6 times, Paper 3 times, and Scissors 1 time,
+the bot thinks you'll probably play Rock again,
+so it plays Paper to beat your Rock.
+
+-------------------------------------------------------------------------------------------------------
+
+2. It checks how many times you played Rock, Paper, or Scissors in just those 5 recent moves.
+
+Then, it guesses you’ll play the one you used the most recently.
+
+Finally, the bot plays the move that beats that.
+
+Example:
+Let’s say your last 5 moves were:
+Rock, Rock, Paper, Rock, Scissors
+
+The counts would be:
+Rock = 3, Paper = 1, Scissors = 1
+
+So the bot thinks you'll play Rock again,
+and plays Paper to beat it.
+
+It’s like the bot is paying close attention to your recent behavior instead of your full history.
+
+
+-------------------------------------------------------------------------------------------------------------------
