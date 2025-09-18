@@ -1,34 +1,75 @@
 import random
 import logging
-import os
 
-# === Logging Setup ===
-log_file_path = os.path.join(os.path.dirname(__file__), "game_log.txt")
-logging.basicConfig(
-    filename=log_file_path,
-    filemode="a",
-    format="%(asctime)s - %(message)s",
-    level=logging.INFO,
-    force=True
-)
+# Logging Setup
+logging.basicConfig(filename='game_log.txt', level=logging.INFO,
+                    format='%(asctime)s - %(message)s')
 
-def log_print(msg="", end="\n"):
-    """Print once to console and log to file."""
-    print(msg, end=end)
-    logging.info(msg)
+dev_mode = 1 # 1 meaning development mode, 2 meaning user mode
 
-# === Game Setup ===
+def log_print(message=""):
+    if dev_mode == 1:
+        print(message)
+    logging.info(message)
+
+# Moves & Rules
 move_options = ["Rock", "Paper", "Scissors"]
 beats = {"Rock": "Scissors", "Paper": "Rock", "Scissors": "Paper"}
 loses_to = {v: k for k, v in beats.items()}
+
+# Game State
 moves_array = []
-history = []  # (round_number, player_move, bot_move, result)
 score = {"Player": 0, "Bot": 0, "Draws": 0}
 win_streak = 0
 current_algorithm = 1
 blocked_algorithms = set()
 
-# === Weighted Choice ===
+# --- Probability Printers ---
+def print_combined_table(prob_data, round_number):
+    log_print(f"\n=== Prediction Probabilities (Round {round_number}) ===")
+    header = f"{'Algorithm':<12}{'Predicted':<12}{'Rock%':<10}{'Paper%':<10}{'Scissors%'}"
+    log_print(header)
+    log_print("-" * len(header))
+    for algo, data in prob_data.items():
+        pred = data['predicted']
+        rock = round(data['probs']['Rock'] * 100, 1)
+        paper = round(data['probs']['Paper'] * 100, 1)
+        scissors = round(data['probs']['Scissors'] * 100, 1)
+        log_print(f"{algo:<12}{pred:<12}{rock:<10}{paper:<10}{scissors}")
+    log_print("=" * len(header))
+
+# --- Probability Generators ---
+def get_probabilities_algo_1():
+    if len(moves_array) < 2:
+        probs = {m: 1/3 for m in move_options}
+    else:
+        move_counts = {m: moves_array.count(m) for m in move_options}
+        total = sum(move_counts.values())
+        probs = {m: move_counts[m] / total for m in move_options}
+    predicted = weighted_choice(probs)
+    return {"probs": probs, "predicted": predicted}
+
+def get_probabilities_algo_2():
+    if len(moves_array) < 2:
+        probs = {m: 1/3 for m in move_options}
+    else:
+        recent = moves_array[-5:]
+        move_counts = {m: recent.count(m) for m in move_options}
+        total = sum(move_counts.values())
+        probs = {m: move_counts[m] / total for m in move_options}
+    predicted = weighted_choice(probs)
+    return {"probs": probs, "predicted": predicted}
+
+def get_probabilities_algo_3():
+    if not moves_array:
+        predicted = random.choice(move_options)
+    else:
+        last = moves_array[-1]
+        cycle = {"Rock": "Paper", "Paper": "Scissors", "Scissors": "Rock"}
+        predicted = cycle[last]
+    probs = {m: 1.0 if m == predicted else 0.0 for m in move_options}
+    return {"probs": probs, "predicted": predicted}
+
 def weighted_choice(prob_dict):
     rand = random.random()
     cumulative = 0.0
@@ -38,92 +79,86 @@ def weighted_choice(prob_dict):
             return move
     return random.choice(list(prob_dict.keys()))
 
-# === Bot Algorithms ===
-def get_bot_move_algorithm_1():
-    if len(moves_array) < 1:
-        return random.choice(move_options)
-    move_counts = {m: moves_array.count(m) for m in move_options}
-    total = sum(move_counts.values())
-    if total == 0:
-        return random.choice(move_options)
-    probabilities = {move: count / total for move, count in move_counts.items()}
-    return weighted_choice(probabilities)
+# --- Gather All Probabilities ---
+def calculate_all_probabilities():
+    return {
+        "Algorithm 1": get_probabilities_algo_1(),
+        "Algorithm 2": get_probabilities_algo_2(),
+        "Algorithm 3": get_probabilities_algo_3()
+    }
 
-def get_bot_move_algorithm_2():
-    if len(moves_array) < 5:
-        return random.choice(move_options)
-    recent_moves = moves_array[-5:]
-    move_counts = {m: recent_moves.count(m) for m in move_options}
-    total = sum(move_counts.values())
-    if total == 0:
-        return random.choice(move_options)
-    probabilities = {move: count / total for move, count in move_counts.items()}
-    return weighted_choice(probabilities)
+# --- Choose Bot Move ---
+def get_bot_move(prob_data):
+    global current_algorithm
+    algo_key = f"Algorithm {current_algorithm}"
+    predicted_move = prob_data[algo_key]["predicted"]
+    return loses_to[predicted_move]
 
-def get_bot_move():
-    if current_algorithm == 1:
-        return get_bot_move_algorithm_1()
-    elif current_algorithm == 2:
-        return get_bot_move_algorithm_2()
-    else:
-        return random.choice(move_options)
-
+# --- Algorithm Switch ---
 def switch_algorithm():
     global current_algorithm, blocked_algorithms, win_streak
     log_print("\nBOT RUMBLED! You won 3 rounds in a row!")
     log_print(f"Switching strategy... (Avoiding Algorithm {current_algorithm})")
     blocked_algorithms.add(current_algorithm)
-    available = [a for a in [1, 2] if a not in blocked_algorithms]
+    available = [a for a in [1, 2, 3] if a not in blocked_algorithms]
     if available:
         current_algorithm = random.choice(available)
     else:
-        blocked_algorithms = set()
-        current_algorithm = random.choice([1, 2])
+        blocked_algorithms.clear()
+        current_algorithm = random.choice([1, 2, 3])
         log_print("All strategies used. Resetting AI memory.")
     win_streak = 0
     log_print(f"[AI now using Algorithm {current_algorithm}]")
+    log_print("-" * 50)
+
+# --- Display Player History ---
+def print_player_history():
+    log_print("\nYour move history:")
+    for i, move in enumerate(moves_array, 1):
+        log_print(f"  Round {i}: {move}")
+        print("Your move history:")
+        print(f"  Round {i}: {move}")
+        print("-" * 40)
+    
     log_print("-" * 40)
 
-# === Move Stats Display (Table) ===
-def print_move_stats():
-    log_print("\n========================================== Move Statistics =========================================================================")
-    if not history:
-        log_print("No moves recorded yet.")
-        return
-    player_counts = {m: 0 for m in move_options}
-    bot_counts = {m: 0 for m in move_options}
-    for _, p, b, _ in history:
-        player_counts[p] += 1
-        bot_counts[b] += 1
-    total_rounds = len(history)
-    log_print(f"{'Move':<10}{'Player %':<12}{'Bot %'}")
-    log_print("-" * 30)
-    for move in move_options:
-        p_pct = round((player_counts[move] / total_rounds) * 100, 1)
-        b_pct = round((bot_counts[move] / total_rounds) * 100, 1)
-        log_print(f"{move:<10}{p_pct:<12}{b_pct}")
-    log_print("-" * 30)
 
-# === Scoreboard ===
+# --- Scoreboard ---
 def print_scoreboard():
     log_print("Game Score:")
     log_print(f"  You   : {score['Player']}")
     log_print(f"  Bot   : {score['Bot']}")
     log_print(f"  Draws : {score['Draws']}")
-    log_print("=" * 50 + "\n")
+    log_print("=" * 100 + "\n")
+    if dev_mode == 2:
+        print("Game Score:")
+        print(f"  You   : {score['Player']}")
+        print(f"  Bot   : {score['Bot']}")
+        print(f"  Draws : {score['Draws']}")
+        print("=" * 100 + "\n")
 
-# === Game Intro ===
-log_print("=" * 50)
+# --- Intro ---
+log_print("=" * 100)
 log_print("       Rock, Paper, Scissors — Smart AI       ")
-log_print("=" * 50)
+log_print("=" * 100)
 log_print("Type Rock, Paper, or Scissors to play. Type Exit to quit.\n")
 
-round_number = 1
+if dev_mode == 2:
+    print("=" * 100)
+    print("       Rock, Paper, Scissors — Smart AI       ")    
+    print("=" * 100)
+    print("Type Rock, Paper, or Scissors to play. Type Exit to quit.\n")
 
-# === Game Loop ===
+# --- Game Loop ---
+round_number = 1
 while True:
-    print_move_stats()
+    prob_data = calculate_all_probabilities()
+    print_combined_table(prob_data, round_number)
     log_print(f"Current Algorithm: {current_algorithm}")
+    if dev_mode == 2:
+        print(f"Current Algorithm: {current_algorithm}")
+
+
     player_move = input(f"\nRound {round_number} — Your move: ").capitalize()
     if player_move == "Exit":
         log_print("\nGame Over.")
@@ -131,31 +166,43 @@ while True:
         break
     if player_move not in move_options:
         log_print("Invalid input. Try Rock, Paper, or Scissors.\n")
+        if dev_mode == 2:
+            print("Invalid input. Try Rock, Paper, or Scissors.\n")
         continue
-    bot_move = get_bot_move()
+
+    bot_move = get_bot_move(prob_data)
     log_print(f"\nBot played: {bot_move}")
+    if dev_mode == 2:
+        print(f"\nBot played: {bot_move}")
+
+    # Outcome
     if bot_move == player_move:
-        result = "Draw"
         log_print("It's a draw.\n")
+        if dev_mode == 2:
+            print("It's a draw.\n")
         score["Draws"] += 1
         win_streak = 0
     elif beats[player_move] == bot_move:
-        result = "Player"
         log_print("You win this round.\n")
+        if dev_mode == 2:
+            print("You win this round.\n")
         score["Player"] += 1
         win_streak += 1
         if win_streak >= 3:
             switch_algorithm()
     else:
-        result = "Bot"
         log_print("Bot wins this round.\n")
+        if dev_mode == 2:
+            print("Bot wins this round.\n")
         score["Bot"] += 1
         win_streak = 0
+
     moves_array.append(player_move)
-    history.append((round_number, player_move, bot_move, result))
-    logging.info(f"Round {round_number}: Player={player_move}, Bot={bot_move}, Result={result}")
+    print_player_history()
     print_scoreboard()
     round_number += 1
     if round_number > 20:
-        log_print("Reached 20 rounds. Ending game.")
+        log_print("Reached 20 rounds. Ending game to prevent fatigue.\n")
+        if dev_mode == 2:
+            print("Reached 20 rounds. Ending game to prevent fatigue.\n")
         break

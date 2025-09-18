@@ -1,0 +1,16 @@
+Algorithm 1 - Full User Move Check:
+Its goes through all the user's moves.
+Checks how many times Rock, Paper and Scissors where done.
+E.g. 10 moves done. 6 - Rock. 1 - Paper. 3 - Scissors
+Most likely to do Paper since done the least.
+
+Algorithm 2 - Last Five:
+Its goes through the user's last 5 moves.
+Checks how many times Rock, Paper and Scissors where done.
+E.g. 5 moves done. 2 - Rock. 1 - Paper. 3 - Scissors
+Most likely to do Paper since done the least.
+
+Algorithm 3 - CYCLE DETECTION:
+Check for constant patterns
+E.g. This is the user input: Rock, Scissors, Rock, Scissors, Rock, Scissors, Rock.
+Its most likely to be scissors next.
