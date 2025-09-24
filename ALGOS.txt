@@ -1,33 +1,57 @@
-The Look-Back Algorithm:
-1. Algorithm 1 looks at all the moves you've made in the game so far.
-It counts how many times you used Rock, Paper, or Scissors.
-Whichever one you used the most, it assumes you'll play that again.
-Then the bot plays the move that beats it.
-
-Example:
-If you played Rock 6 times, Paper 3 times, and Scissors 1 time,
-the bot thinks you'll probably play Rock again,
-so it plays Paper to beat your Rock.
-
--------------------------------------------------------------------------------------------------------
-
-2. It checks how many times you played Rock, Paper, or Scissors in just those 5 recent moves.
-
-Then, it guesses you’ll play the one you used the most recently.
-
-Finally, the bot plays the move that beats that.
-
-Example:
-Let’s say your last 5 moves were:
-Rock, Rock, Paper, Rock, Scissors
-
-The counts would be:
-Rock = 3, Paper = 1, Scissors = 1
-
-So the bot thinks you'll play Rock again,
-and plays Paper to beat it.
-
-It’s like the bot is paying close attention to your recent behavior instead of your full history.
-
-
 -------------------------------------------------------------------------------------------------------------------
+Last-Move Heuristic
+    This algorithm focuses only on the most recent move. It assumes the next move will be related to the last one. 
+    For example, if someone just played Rock, they might stay on Rock, switch to Paper, or rotate into Scissors. 
+    The algorithm predicts based on these common tendencies, then chooses the counter move.
+-------------------------------------------------------------------------------------------------------------------
+Pattern Recognition
+    This algorithm studies the sequence of past moves. 
+    It looks for repetition, like the same move being played multiple times, or a cycle, like Rock → Paper → Scissors.
+    Once a pattern is detected, the algorithm predicts that the pattern will continue,
+    and it plays the move that would beat the expected continuation.
+-------------------------------------------------------------------------------------------------------------------     
+Psychological Biases
+    This algorithm assumes the player reacts in predictable ways depending on whether they just won, lost, or tied. 
+    After a loss, players often switch to the move that would have beaten their opponent. 
+    After a win, they tend to repeat the same move because it worked. 
+    After a tie, they often switch to try something different. 
+    The algorithm uses these tendencies to predict the next move.
+-------------------------------------------------------------------------------------------------------------------
+Frequency Analysis
+    This algorithm keeps track of how often each move has been played across the entire game. 
+    If one move is more frequent, the algorithm predicts the player will continue to lean on it. 
+    Sometimes it also predicts the opposite: that the player will try to “balance” by using their least frequent move. 
+    The counter is chosen based on whichever likelihood seems stronger.
+-------------------------------------------------------------------------------------------------------------------
+Randomization Safeguard
+    This algorithm is used when no clear pattern, bias, or frequency can be identified. 
+    Instead of guessing in a predictable way, it selects a move at random. 
+    This prevents the strategy itself from becoming exploitable if the opponent notices a consistent method of prediction.
+--------------------------------------------------------------------------------------------------------------------
+Algorithm Ratings(1 being the worst, 10 being the best):
+
+Last-Move Heuristic - 6/10 - Its okay, not the best
+Pattern Recognition - 4/10 - Easy to catch on
+Psychological Biases - 8/10 - Its a smart simple algorithm
+Frequency Analysis - 5/10 - Its more of repetition
+Randomization Safeguard - 1/10 - It is random 33.3% for win, loss and draw.
+                                 Only use if it is a VERY big loss situation
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+Pseudocode:
+
+1. Program run.
+2. Creates 'blocked_algorithm[]'
+
+loop[
+    3. Askes user for input.
+    4. User inputs
+    5. Looks at history and runs through every algorithm.
+    5a. If no history then it picks randomly
+    5b. If there is history, it runs through all the unblocked algorithms (every algorithm that is not on the blocked_algorithm[] list)
+        Checks the percentages for every algorithm and see which is highest, also sees what is a consistent move even if not the highest.
+        Then plays the move.
+    6. Records win/loss/draw.
+    7. Logs percentages on all algorithms, even blocked_algorithm[], and the player history. Also win/loss/draw.
+    8. Resarts loop[]
+]

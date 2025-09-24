@@ -129,7 +129,7 @@ def print_scoreboard():
     log_print(f"  You   : {score['Player']}")
     log_print(f"  Bot   : {score['Bot']}")
     log_print(f"  Draws : {score['Draws']}")
-    log_print("=" * 100 + "\n")
+    log_print(f"=" * 100 + "\n")
     if dev_mode == 2:
         print("Game Score:")
         print(f"  You   : {score['Player']}")
