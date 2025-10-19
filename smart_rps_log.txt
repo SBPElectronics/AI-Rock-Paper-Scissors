@@ -1,0 +1,120 @@
+2025-10-09 21:06:43,302 - It's a draw!
+2025-10-09 21:06:43,303 - Player: Rock | Bot: Rock
+2025-10-09 21:06:43,304 - Current Score -> Player: 0 | Bot: 0 | Draws: 1
+2025-10-09 21:06:43,304 - Move Percentages -> Rock: 100.0% | Paper: 0.0% | Scissors: 0.0%
+2025-10-09 21:06:43,305 - AI Prediction Accuracy: 0.00%
+2025-10-09 21:06:44,598 - It's a draw!
+2025-10-09 21:06:44,598 - Player: Paper | Bot: Paper
+2025-10-09 21:06:44,599 - Current Score -> Player: 0 | Bot: 0 | Draws: 2
+2025-10-09 21:06:44,600 - Move Percentages -> Rock: 50.0% | Paper: 50.0% | Scissors: 0.0%
+2025-10-09 21:06:44,600 - AI Prediction Accuracy: 0.00%
+2025-10-09 21:06:45,645 - You win this round!
+2025-10-09 21:06:45,646 - Player: Scissors | Bot: Paper
+2025-10-09 21:06:45,646 - Current Score -> Player: 1 | Bot: 0 | Draws: 2
+2025-10-09 21:06:45,647 - Move Percentages -> Rock: 33.3% | Paper: 33.3% | Scissors: 33.3%
+2025-10-09 21:06:45,647 - AI Prediction Accuracy: 0.00%
+2025-10-09 21:06:46,590 - Bot wins this round!
+2025-10-09 21:06:46,590 - Player: Rock | Bot: Paper
+2025-10-09 21:06:46,591 - Current Score -> Player: 1 | Bot: 1 | Draws: 2
+2025-10-09 21:06:46,591 - Move Percentages -> Rock: 50.0% | Paper: 25.0% | Scissors: 25.0%
+2025-10-09 21:06:46,592 - AI Prediction Accuracy: 25.00%
+2025-10-09 21:06:50,094 - You win this round!
+2025-10-09 21:06:50,095 - Player: Rock | Bot: Scissors
+2025-10-09 21:06:50,096 - Current Score -> Player: 2 | Bot: 1 | Draws: 2
+2025-10-09 21:06:50,096 - Move Percentages -> Rock: 60.0% | Paper: 20.0% | Scissors: 20.0%
+2025-10-09 21:06:50,097 - AI Prediction Accuracy: 20.00%
+2025-10-09 21:06:52,483 - You win this round!
+2025-10-09 21:06:52,484 - Player: Paper | Bot: Rock
+2025-10-09 21:06:52,484 - Current Score -> Player: 3 | Bot: 1 | Draws: 2
+2025-10-09 21:06:52,485 - Move Percentages -> Rock: 50.0% | Paper: 33.3% | Scissors: 16.7%
+2025-10-09 21:06:52,485 - AI Prediction Accuracy: 16.67%
+2025-10-09 21:06:53,530 - You win this round!
+2025-10-09 21:06:53,531 - Player: Scissors | Bot: Paper
+2025-10-09 21:06:53,531 - Current Score -> Player: 4 | Bot: 1 | Draws: 2
+2025-10-09 21:06:53,532 - Move Percentages -> Rock: 42.9% | Paper: 28.6% | Scissors: 28.6%
+2025-10-09 21:06:53,532 - AI Prediction Accuracy: 14.29%
+2025-10-09 21:06:54,197 - Bot wins this round!
+2025-10-09 21:06:54,198 - Player: Rock | Bot: Paper
+2025-10-09 21:06:54,198 - Current Score -> Player: 4 | Bot: 2 | Draws: 2
+2025-10-09 21:06:54,198 - Move Percentages -> Rock: 50.0% | Paper: 25.0% | Scissors: 25.0%
+2025-10-09 21:06:54,199 - AI Prediction Accuracy: 25.00%
+2025-10-09 21:06:54,881 - You win this round!
+2025-10-09 21:06:54,882 - Player: Paper | Bot: Rock
+2025-10-09 21:06:54,882 - Current Score -> Player: 5 | Bot: 2 | Draws: 2
+2025-10-09 21:06:54,882 - Move Percentages -> Rock: 44.4% | Paper: 33.3% | Scissors: 22.2%
+2025-10-09 21:06:54,883 - AI Prediction Accuracy: 22.22%
+2025-10-09 21:06:55,919 - You win this round!
+2025-10-09 21:06:55,919 - Player: Scissors | Bot: Paper
+2025-10-09 21:06:55,920 - Current Score -> Player: 6 | Bot: 2 | Draws: 2
+2025-10-09 21:06:55,920 - Move Percentages -> Rock: 40.0% | Paper: 30.0% | Scissors: 30.0%
+2025-10-09 21:06:55,921 - AI Prediction Accuracy: 20.00%
+2025-10-09 21:06:56,998 - Bot wins this round!
+2025-10-09 21:06:56,998 - Player: Rock | Bot: Paper
+2025-10-09 21:06:56,999 - Current Score -> Player: 6 | Bot: 3 | Draws: 2
+2025-10-09 21:06:56,999 - Move Percentages -> Rock: 45.5% | Paper: 27.3% | Scissors: 27.3%
+2025-10-09 21:06:57,000 - AI Prediction Accuracy: 27.27%
+2025-10-09 21:06:58,305 - You win this round!
+2025-10-09 21:06:58,306 - Player: Paper | Bot: Rock
+2025-10-09 21:06:58,306 - Current Score -> Player: 7 | Bot: 3 | Draws: 2
+2025-10-09 21:06:58,307 - Move Percentages -> Rock: 41.7% | Paper: 33.3% | Scissors: 25.0%
+2025-10-09 21:06:58,307 - AI Prediction Accuracy: 25.00%
+2025-10-09 21:06:59,642 - You win this round!
+2025-10-09 21:06:59,642 - Player: Scissors | Bot: Paper
+2025-10-09 21:06:59,643 - Current Score -> Player: 8 | Bot: 3 | Draws: 2
+2025-10-09 21:06:59,643 - Move Percentages -> Rock: 38.5% | Paper: 30.8% | Scissors: 30.8%
+2025-10-09 21:06:59,644 - AI Prediction Accuracy: 23.08%
+2025-10-09 21:07:00,620 - Bot wins this round!
+2025-10-09 21:07:00,620 - Player: Rock | Bot: Paper
+2025-10-09 21:07:00,621 - Current Score -> Player: 8 | Bot: 4 | Draws: 2
+2025-10-09 21:07:00,622 - Move Percentages -> Rock: 42.9% | Paper: 28.6% | Scissors: 28.6%
+2025-10-09 21:07:00,622 - AI Prediction Accuracy: 28.57%
+2025-10-09 21:07:01,328 - You win this round!
+2025-10-09 21:07:01,329 - Player: Paper | Bot: Rock
+2025-10-09 21:07:01,329 - Current Score -> Player: 9 | Bot: 4 | Draws: 2
+2025-10-09 21:07:01,330 - Move Percentages -> Rock: 40.0% | Paper: 33.3% | Scissors: 26.7%
+2025-10-09 21:07:01,330 - AI Prediction Accuracy: 26.67%
+2025-10-09 21:07:04,389 - It's a draw!
+2025-10-09 21:07:04,389 - Player: Scissors | Bot: Scissors
+2025-10-09 21:07:04,390 - Current Score -> Player: 9 | Bot: 4 | Draws: 3
+2025-10-09 21:07:04,390 - Move Percentages -> Rock: 37.5% | Paper: 31.2% | Scissors: 31.2%
+2025-10-09 21:07:04,390 - AI Prediction Accuracy: 25.00%
+2025-10-09 21:07:05,429 - Bot wins this round!
+2025-10-09 21:07:05,430 - Player: Rock | Bot: Paper
+2025-10-09 21:07:05,430 - Current Score -> Player: 9 | Bot: 5 | Draws: 3
+2025-10-09 21:07:05,431 - Move Percentages -> Rock: 41.2% | Paper: 29.4% | Scissors: 29.4%
+2025-10-09 21:07:05,431 - AI Prediction Accuracy: 29.41%
+2025-10-09 21:07:06,237 - You win this round!
+2025-10-09 21:07:06,237 - Player: Paper | Bot: Rock
+2025-10-09 21:07:06,238 - Current Score -> Player: 10 | Bot: 5 | Draws: 3
+2025-10-09 21:07:06,238 - Move Percentages -> Rock: 38.9% | Paper: 33.3% | Scissors: 27.8%
+2025-10-09 21:07:06,239 - AI Prediction Accuracy: 27.78%
+2025-10-09 21:07:07,240 - It's a draw!
+2025-10-09 21:07:07,241 - Player: Scissors | Bot: Scissors
+2025-10-09 21:07:07,241 - Current Score -> Player: 10 | Bot: 5 | Draws: 4
+2025-10-09 21:07:07,242 - Move Percentages -> Rock: 36.8% | Paper: 31.6% | Scissors: 31.6%
+2025-10-09 21:07:07,242 - AI Prediction Accuracy: 26.32%
+2025-10-09 21:07:08,197 - You win this round!
+2025-10-09 21:07:08,198 - Player: Rock | Bot: Scissors
+2025-10-09 21:07:08,198 - Current Score -> Player: 11 | Bot: 5 | Draws: 4
+2025-10-09 21:07:08,198 - Move Percentages -> Rock: 40.0% | Paper: 30.0% | Scissors: 30.0%
+2025-10-09 21:07:08,199 - AI Prediction Accuracy: 25.00%
+2025-10-09 21:07:09,090 - You win this round!
+2025-10-09 21:07:09,091 - Player: Paper | Bot: Rock
+2025-10-09 21:07:09,091 - Current Score -> Player: 12 | Bot: 5 | Draws: 4
+2025-10-09 21:07:09,092 - Move Percentages -> Rock: 38.1% | Paper: 33.3% | Scissors: 28.6%
+2025-10-09 21:07:09,093 - AI Prediction Accuracy: 23.81%
+2025-10-09 21:07:10,154 - You win this round!
+2025-10-09 21:07:10,155 - Player: Scissors | Bot: Paper
+2025-10-09 21:07:10,155 - Current Score -> Player: 13 | Bot: 5 | Draws: 4
+2025-10-09 21:07:10,156 - Move Percentages -> Rock: 36.4% | Paper: 31.8% | Scissors: 31.8%
+2025-10-09 21:07:10,156 - AI Prediction Accuracy: 22.73%
+2025-10-09 21:07:11,002 - Bot wins this round!
+2025-10-09 21:07:11,003 - Player: Rock | Bot: Paper
+2025-10-09 21:07:11,003 - Current Score -> Player: 13 | Bot: 6 | Draws: 4
+2025-10-09 21:07:11,004 - Move Percentages -> Rock: 39.1% | Paper: 30.4% | Scissors: 30.4%
+2025-10-09 21:07:11,004 - AI Prediction Accuracy: 26.09%
+2025-10-09 21:07:12,139 - You win this round!
+2025-10-09 21:07:12,140 - Player: Paper | Bot: Rock
+2025-10-09 21:07:12,140 - Current Score -> Player: 14 | Bot: 6 | Draws: 4
+2025-10-09 21:07:12,141 - Move Percentages -> Rock: 37.5% | Paper: 33.3% | Scissors: 29.2%
+2025-10-09 21:07:12,141 - AI Prediction Accuracy: 25.00%

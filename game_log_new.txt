@@ -1,0 +1,290 @@
+2025-10-01 19:58:22,002 - Player: Rock | Bot: Paper
+2025-10-01 19:58:22,002 - Bot wins this round!
+2025-10-01 19:58:22,002 - Current Score -> Player: 0 | Bot: 1 | Draws: 0
+2025-10-01 19:58:23,622 - Player: Paper | Bot: Scissors
+2025-10-01 19:58:23,622 - Bot wins this round!
+2025-10-01 19:58:23,622 - Current Score -> Player: 0 | Bot: 2 | Draws: 0
+2025-10-01 19:58:24,706 - Player: Scissors | Bot: Scissors
+2025-10-01 19:58:24,707 - It's a draw!
+2025-10-01 19:58:24,708 - Current Score -> Player: 0 | Bot: 2 | Draws: 1
+2025-10-01 19:58:25,639 - Player: Rock | Bot: Paper
+2025-10-01 19:58:25,639 - Bot wins this round!
+2025-10-01 19:58:25,640 - Current Score -> Player: 0 | Bot: 3 | Draws: 1
+2025-10-01 19:58:26,529 - Player: Paper | Bot: Rock
+2025-10-01 19:58:26,530 - You win this round!
+2025-10-01 19:58:26,531 - Current Score -> Player: 1 | Bot: 3 | Draws: 1
+2025-10-01 19:58:27,542 - Player: Scissors | Bot: Paper
+2025-10-01 19:58:27,542 - You win this round!
+2025-10-01 19:58:27,544 - Current Score -> Player: 2 | Bot: 3 | Draws: 1
+2025-10-01 19:58:29,926 - Player: Rock | Bot: Rock
+2025-10-01 19:58:29,926 - It's a draw!
+2025-10-01 19:58:29,928 - Current Score -> Player: 2 | Bot: 3 | Draws: 2
+2025-10-01 19:58:32,521 - Player: Paper | Bot: Rock
+2025-10-01 19:58:32,523 - You win this round!
+2025-10-01 19:58:32,523 - Current Score -> Player: 3 | Bot: 3 | Draws: 2
+2025-10-01 19:58:34,518 - Player: Scissors | Bot: Scissors
+2025-10-01 19:58:34,518 - It's a draw!
+2025-10-01 19:58:34,521 - Current Score -> Player: 3 | Bot: 3 | Draws: 3
+2025-10-05 14:48:25,382 - Player: Rock | Bot: Scissors
+2025-10-05 14:48:25,383 - You win this round!
+2025-10-05 14:48:25,383 - Current Score -> Player: 1 | Bot: 0 | Draws: 0
+2025-10-05 14:48:26,825 - Player: Paper | Bot: Scissors
+2025-10-05 14:48:26,825 - Bot wins this round!
+2025-10-05 14:48:26,825 - Current Score -> Player: 1 | Bot: 1 | Draws: 0
+2025-10-05 14:48:28,297 - Player: Scissors | Bot: Rock
+2025-10-05 14:48:28,297 - Bot wins this round!
+2025-10-05 14:48:28,297 - Current Score -> Player: 1 | Bot: 2 | Draws: 0
+2025-10-05 14:48:33,355 - Player: Rock | Bot: Paper
+2025-10-05 14:48:33,356 - Bot wins this round!
+2025-10-05 14:48:33,356 - Current Score -> Player: 1 | Bot: 3 | Draws: 0
+2025-10-05 14:52:19,023 - Player: Rock | Bot: Scissors
+2025-10-05 14:52:19,024 - You win this round!
+2025-10-05 14:52:19,025 - Current Score -> Player: 2 | Bot: 3 | Draws: 0
+2025-10-05 14:52:19,696 - Player: Paper | Bot: Scissors
+2025-10-05 14:52:19,696 - Bot wins this round!
+2025-10-05 14:52:19,697 - Current Score -> Player: 2 | Bot: 4 | Draws: 0
+2025-10-05 14:52:21,002 - Player: Scissors | Bot: Rock
+2025-10-05 14:52:21,002 - Bot wins this round!
+2025-10-05 14:52:21,003 - Current Score -> Player: 2 | Bot: 5 | Draws: 0
+2025-10-05 14:52:21,653 - Player: Rock | Bot: Paper
+2025-10-05 14:52:21,653 - Bot wins this round!
+2025-10-05 14:52:21,655 - Current Score -> Player: 2 | Bot: 6 | Draws: 0
+2025-10-05 14:52:24,677 - Player: Rock | Bot: Scissors
+2025-10-05 14:52:24,678 - You win this round!
+2025-10-05 14:52:24,678 - Current Score -> Player: 3 | Bot: 6 | Draws: 0
+2025-10-05 14:52:25,669 - Player: Rock | Bot: Scissors
+2025-10-05 14:52:25,670 - You win this round!
+2025-10-05 14:52:25,670 - Current Score -> Player: 4 | Bot: 6 | Draws: 0
+2025-10-05 14:52:26,793 - Player: Rock | Bot: Scissors
+2025-10-05 14:52:26,794 - You win this round!
+2025-10-05 14:52:26,794 - Current Score -> Player: 5 | Bot: 6 | Draws: 0
+2025-10-05 14:52:27,509 - Player: Rock | Bot: Scissors
+2025-10-05 14:52:27,511 - You win this round!
+2025-10-05 14:52:27,511 - Current Score -> Player: 6 | Bot: 6 | Draws: 0
+2025-10-05 14:52:28,179 - Player: Rock | Bot: Scissors
+2025-10-05 14:52:28,179 - You win this round!
+2025-10-05 14:52:28,180 - Current Score -> Player: 7 | Bot: 6 | Draws: 0
+2025-10-05 14:52:29,007 - Player: Rock | Bot: Scissors
+2025-10-05 14:52:29,008 - You win this round!
+2025-10-05 14:52:29,008 - Current Score -> Player: 8 | Bot: 6 | Draws: 0
+2025-10-05 14:52:29,660 - Player: Rock | Bot: Scissors
+2025-10-05 14:52:29,660 - You win this round!
+2025-10-05 14:52:29,661 - Current Score -> Player: 9 | Bot: 6 | Draws: 0
+2025-10-05 14:52:31,711 - Player: Rock | Bot: Scissors
+2025-10-05 14:52:31,711 - You win this round!
+2025-10-05 14:52:31,712 - Current Score -> Player: 10 | Bot: 6 | Draws: 0
+2025-10-05 14:52:32,460 - Player: Rock | Bot: Scissors
+2025-10-05 14:52:32,461 - You win this round!
+2025-10-05 14:52:32,462 - Current Score -> Player: 11 | Bot: 6 | Draws: 0
+2025-10-05 14:52:33,315 - Player: Rock | Bot: Scissors
+2025-10-05 14:52:33,315 - You win this round!
+2025-10-05 14:52:33,316 - Current Score -> Player: 12 | Bot: 6 | Draws: 0
+2025-10-05 14:57:31,932 - Game ended by player.
+2025-10-05 14:57:31,935 - Final Score: Player: 12 | Bot: 6 | Draws: 0
+2025-10-05 14:57:38,615 - Player: Rock | Bot: Rock
+2025-10-05 14:57:38,616 - It's a draw!
+2025-10-05 14:57:38,621 - Current Score -> Player: 0 | Bot: 0 | Draws: 1
+2025-10-05 14:57:40,753 - Player: Scissors | Bot: Scissors
+2025-10-05 14:57:40,754 - It's a draw!
+2025-10-05 14:57:40,764 - Current Score -> Player: 0 | Bot: 0 | Draws: 2
+2025-10-05 14:57:41,531 - Player: Paper | Bot: Paper
+2025-10-05 14:57:41,532 - It's a draw!
+2025-10-05 14:57:41,533 - Current Score -> Player: 0 | Bot: 0 | Draws: 3
+2025-10-05 14:57:42,841 - Player: Rock | Bot: Rock
+2025-10-05 14:57:42,842 - It's a draw!
+2025-10-05 14:57:42,849 - Current Score -> Player: 0 | Bot: 0 | Draws: 4
+2025-10-05 14:57:46,928 - Player: Paper | Bot: Scissors
+2025-10-05 14:57:46,930 - Bot wins this round!
+2025-10-05 14:57:46,932 - Current Score -> Player: 0 | Bot: 1 | Draws: 4
+2025-10-05 14:57:48,037 - Player: Scissors | Bot: Rock
+2025-10-05 14:57:48,038 - Bot wins this round!
+2025-10-05 14:57:48,047 - Current Score -> Player: 0 | Bot: 2 | Draws: 4
+2025-10-05 14:57:51,308 - Player: Paper | Bot: Scissors
+2025-10-05 14:57:51,309 - Bot wins this round!
+2025-10-05 14:57:51,311 - Current Score -> Player: 0 | Bot: 3 | Draws: 4
+2025-10-05 14:57:53,343 - Player: Paper | Bot: Scissors
+2025-10-05 14:57:53,343 - Bot wins this round!
+2025-10-05 14:57:53,349 - Current Score -> Player: 0 | Bot: 4 | Draws: 4
+2025-10-05 14:57:54,944 - Player: Paper | Bot: Scissors
+2025-10-05 14:57:54,945 - Bot wins this round!
+2025-10-05 14:57:54,956 - Current Score -> Player: 0 | Bot: 5 | Draws: 4
+2025-10-05 14:57:55,675 - Player: Rock | Bot: Scissors
+2025-10-05 14:57:55,679 - You win this round!
+2025-10-05 14:57:55,680 - Current Score -> Player: 1 | Bot: 5 | Draws: 4
+2025-10-05 14:57:58,960 - Player: Scissors | Bot: Scissors
+2025-10-05 14:57:58,961 - It's a draw!
+2025-10-05 14:57:58,968 - Current Score -> Player: 1 | Bot: 5 | Draws: 5
+2025-10-05 14:58:53,239 - Player: Rock | Bot: Scissors
+2025-10-05 14:58:53,241 - You win this round!
+2025-10-05 14:58:53,241 - Current Score -> Player: 2 | Bot: 5 | Draws: 5
+2025-10-05 14:58:54,062 - Player: Paper | Bot: Scissors
+2025-10-05 14:58:54,063 - Bot wins this round!
+2025-10-05 14:58:54,064 - Current Score -> Player: 2 | Bot: 6 | Draws: 5
+2025-10-05 14:58:55,755 - Player: Rock | Bot: Scissors
+2025-10-05 14:58:55,755 - You win this round!
+2025-10-05 14:58:55,760 - Current Score -> Player: 3 | Bot: 6 | Draws: 5
+2025-10-05 14:58:56,569 - Player: Paper | Bot: Scissors
+2025-10-05 14:58:56,570 - Bot wins this round!
+2025-10-05 14:58:56,578 - Current Score -> Player: 3 | Bot: 7 | Draws: 5
+2025-10-05 14:58:57,748 - Player: Scissors | Bot: Scissors
+2025-10-05 14:58:57,748 - It's a draw!
+2025-10-05 14:58:57,750 - Current Score -> Player: 3 | Bot: 7 | Draws: 6
+2025-10-05 14:59:00,598 - Player: Rock | Bot: Scissors
+2025-10-05 14:59:00,599 - You win this round!
+2025-10-05 14:59:00,606 - Current Score -> Player: 4 | Bot: 7 | Draws: 6
+2025-10-05 14:59:01,289 - Player: Paper | Bot: Scissors
+2025-10-05 14:59:01,290 - Bot wins this round!
+2025-10-05 14:59:01,307 - Current Score -> Player: 4 | Bot: 8 | Draws: 6
+2025-10-05 14:59:03,593 - Player: Scissors | Bot: Scissors
+2025-10-05 14:59:03,593 - It's a draw!
+2025-10-05 14:59:03,595 - Current Score -> Player: 4 | Bot: 8 | Draws: 7
+2025-10-05 15:00:44,792 - Player: Paper | Bot: Scissors
+2025-10-05 15:00:44,792 - Bot wins this round!
+2025-10-05 15:00:44,793 - Current Score -> Player: 4 | Bot: 9 | Draws: 7
+2025-10-05 20:21:07,644 - Player: Rock | Bot: Rock
+2025-10-05 20:21:07,644 - It's a draw!
+2025-10-05 20:21:07,645 - Current Score -> Player: 0 | Bot: 0 | Draws: 1
+2025-10-05 20:21:09,971 - Player: Paper | Bot: Scissors
+2025-10-05 20:21:09,972 - Bot wins this round!
+2025-10-05 20:21:09,972 - Current Score -> Player: 0 | Bot: 1 | Draws: 1
+2025-10-05 20:21:13,071 - Player: Scissors | Bot: Rock
+2025-10-05 20:21:13,072 - Bot wins this round!
+2025-10-05 20:21:13,072 - Current Score -> Player: 0 | Bot: 2 | Draws: 1
+2025-10-05 20:21:15,113 - Player: Rock | Bot: Paper
+2025-10-05 20:21:15,113 - Bot wins this round!
+2025-10-05 20:21:15,114 - Current Score -> Player: 0 | Bot: 3 | Draws: 1
+2025-10-05 20:21:16,041 - Player: Paper | Bot: Scissors
+2025-10-05 20:21:16,042 - Bot wins this round!
+2025-10-05 20:21:16,044 - Current Score -> Player: 0 | Bot: 4 | Draws: 1
+2025-10-05 20:21:19,141 - Player: Paper | Bot: Scissors
+2025-10-05 20:21:19,147 - Bot wins this round!
+2025-10-05 20:21:19,148 - Current Score -> Player: 0 | Bot: 5 | Draws: 1
+2025-10-05 20:21:20,520 - Player: Paper | Bot: Scissors
+2025-10-05 20:21:20,520 - Bot wins this round!
+2025-10-05 20:21:20,521 - Current Score -> Player: 0 | Bot: 6 | Draws: 1
+2025-10-05 20:21:28,417 - Player: Rock | Bot: Scissors
+2025-10-05 20:21:28,418 - You win this round!
+2025-10-05 20:21:28,419 - Current Score -> Player: 1 | Bot: 6 | Draws: 1
+2025-10-06 19:44:11,673 - Player: Rock | Bot: Paper
+2025-10-06 19:44:11,674 - Bot wins this round!
+2025-10-06 19:44:11,675 - Current Score -> Player: 0 | Bot: 1 | Draws: 0
+2025-10-06 20:22:10,834 - Game ended by player.
+2025-10-06 20:22:10,836 - Final Score: Player: 0 | Bot: 1 | Draws: 0
+2025-10-06 20:22:13,742 - Player: Rock | Bot: Rock
+2025-10-06 20:22:13,742 - It's a draw!
+2025-10-06 20:22:13,743 - Current Score -> Player: 0 | Bot: 0 | Draws: 1
+2025-10-06 20:22:13,753 - Move Percentages -> Rock: 100.0% | Paper: 0.0% | Scissors: 0.0%
+2025-10-06 20:22:48,013 - Player: Paper | Bot: Paper
+2025-10-06 20:22:48,014 - It's a draw!
+2025-10-06 20:22:48,014 - Current Score -> Player: 0 | Bot: 0 | Draws: 2
+2025-10-06 20:22:48,015 - Move Percentages -> Rock: 50.0% | Paper: 50.0% | Scissors: 0.0%
+2025-10-06 20:22:49,573 - Player: Scissors | Bot: Rock
+2025-10-06 20:22:49,585 - Bot wins this round!
+2025-10-06 20:22:49,585 - Current Score -> Player: 0 | Bot: 1 | Draws: 2
+2025-10-06 20:22:49,586 - Move Percentages -> Rock: 33.3% | Paper: 33.3% | Scissors: 33.3%
+2025-10-06 20:22:51,615 - Player: Rock | Bot: Paper
+2025-10-06 20:22:51,618 - Bot wins this round!
+2025-10-06 20:22:51,619 - Current Score -> Player: 0 | Bot: 2 | Draws: 2
+2025-10-06 20:22:51,633 - Move Percentages -> Rock: 50.0% | Paper: 25.0% | Scissors: 25.0%
+2025-10-06 20:22:52,658 - Player: Paper | Bot: Scissors
+2025-10-06 20:22:52,659 - Bot wins this round!
+2025-10-06 20:22:52,660 - Current Score -> Player: 0 | Bot: 3 | Draws: 2
+2025-10-06 20:22:52,661 - Move Percentages -> Rock: 40.0% | Paper: 40.0% | Scissors: 20.0%
+2025-10-06 20:22:53,974 - Player: Scissors | Bot: Rock
+2025-10-06 20:22:53,974 - Bot wins this round!
+2025-10-06 20:22:53,976 - Current Score -> Player: 0 | Bot: 4 | Draws: 2
+2025-10-06 20:22:53,977 - Move Percentages -> Rock: 33.3% | Paper: 33.3% | Scissors: 33.3%
+2025-10-06 20:22:54,788 - Player: Rock | Bot: Paper
+2025-10-06 20:22:54,788 - Bot wins this round!
+2025-10-06 20:22:54,791 - Current Score -> Player: 0 | Bot: 5 | Draws: 2
+2025-10-06 20:22:54,791 - Move Percentages -> Rock: 42.9% | Paper: 28.6% | Scissors: 28.6%
+2025-10-06 20:22:55,600 - Player: Paper | Bot: Scissors
+2025-10-06 20:22:55,601 - Bot wins this round!
+2025-10-06 20:22:55,609 - Current Score -> Player: 0 | Bot: 6 | Draws: 2
+2025-10-06 20:22:55,612 - Move Percentages -> Rock: 37.5% | Paper: 37.5% | Scissors: 25.0%
+2025-10-06 20:22:56,858 - Player: Scissors | Bot: Rock
+2025-10-06 20:22:56,860 - Bot wins this round!
+2025-10-06 20:22:56,861 - Current Score -> Player: 0 | Bot: 7 | Draws: 2
+2025-10-06 20:22:56,861 - Move Percentages -> Rock: 33.3% | Paper: 33.3% | Scissors: 33.3%
+2025-10-06 20:22:57,622 - Player: Rock | Bot: Paper
+2025-10-06 20:22:57,623 - Bot wins this round!
+2025-10-06 20:22:57,625 - Current Score -> Player: 0 | Bot: 8 | Draws: 2
+2025-10-06 20:22:57,626 - Move Percentages -> Rock: 40.0% | Paper: 30.0% | Scissors: 30.0%
+2025-10-06 20:22:58,339 - Player: Paper | Bot: Scissors
+2025-10-06 20:22:58,340 - Bot wins this round!
+2025-10-06 20:22:58,349 - Current Score -> Player: 0 | Bot: 9 | Draws: 2
+2025-10-06 20:22:58,350 - Move Percentages -> Rock: 36.4% | Paper: 36.4% | Scissors: 27.3%
+2025-10-06 20:22:59,390 - Player: Scissors | Bot: Rock
+2025-10-06 20:22:59,391 - Bot wins this round!
+2025-10-06 20:22:59,397 - Current Score -> Player: 0 | Bot: 10 | Draws: 2
+2025-10-06 20:22:59,398 - Move Percentages -> Rock: 33.3% | Paper: 33.3% | Scissors: 33.3%
+2025-10-06 20:26:06,858 - Player: Paper | Bot: Paper
+2025-10-06 20:26:06,859 - It's a draw!
+2025-10-06 20:26:06,860 - Current Score -> Player: 0 | Bot: 10 | Draws: 3
+2025-10-06 20:26:06,861 - Move Percentages -> Rock: 30.8% | Paper: 38.5% | Scissors: 30.8%
+2025-10-06 20:26:08,336 - Player: Scissors | Bot: Rock
+2025-10-06 20:26:08,348 - Bot wins this round!
+2025-10-06 20:26:08,349 - Current Score -> Player: 0 | Bot: 11 | Draws: 3
+2025-10-06 20:26:08,350 - Move Percentages -> Rock: 28.6% | Paper: 35.7% | Scissors: 35.7%
+2025-10-06 20:26:09,094 - Player: Rock | Bot: Paper
+2025-10-06 20:26:09,095 - Bot wins this round!
+2025-10-06 20:26:09,104 - Current Score -> Player: 0 | Bot: 12 | Draws: 3
+2025-10-06 20:26:09,107 - Move Percentages -> Rock: 33.3% | Paper: 33.3% | Scissors: 33.3%
+2025-10-06 20:26:09,765 - Player: Paper | Bot: Scissors
+2025-10-06 20:26:09,767 - Bot wins this round!
+2025-10-06 20:26:09,779 - Current Score -> Player: 0 | Bot: 13 | Draws: 3
+2025-10-06 20:26:09,780 - Move Percentages -> Rock: 31.2% | Paper: 37.5% | Scissors: 31.2%
+2025-10-06 20:26:11,421 - Player: Scissors | Bot: Rock
+2025-10-06 20:26:11,425 - Bot wins this round!
+2025-10-06 20:26:11,426 - Current Score -> Player: 0 | Bot: 14 | Draws: 3
+2025-10-06 20:26:11,429 - Move Percentages -> Rock: 29.4% | Paper: 35.3% | Scissors: 35.3%
+2025-10-06 20:26:12,507 - Player: Rock | Bot: Paper
+2025-10-06 20:26:12,507 - Bot wins this round!
+2025-10-06 20:26:12,509 - Current Score -> Player: 0 | Bot: 15 | Draws: 3
+2025-10-06 20:26:12,509 - Move Percentages -> Rock: 33.3% | Paper: 33.3% | Scissors: 33.3%
+2025-10-06 20:26:13,321 - Player: Paper | Bot: Scissors
+2025-10-06 20:26:13,333 - Bot wins this round!
+2025-10-06 20:26:13,334 - Current Score -> Player: 0 | Bot: 16 | Draws: 3
+2025-10-06 20:26:13,335 - Move Percentages -> Rock: 31.6% | Paper: 36.8% | Scissors: 31.6%
+2025-10-06 20:26:16,232 - Player: Scissors | Bot: Rock
+2025-10-06 20:26:16,232 - Bot wins this round!
+2025-10-06 20:26:16,234 - Current Score -> Player: 0 | Bot: 17 | Draws: 3
+2025-10-06 20:26:16,234 - Move Percentages -> Rock: 30.0% | Paper: 35.0% | Scissors: 35.0%
+2025-10-06 20:26:17,410 - Player: Rock | Bot: Paper
+2025-10-06 20:26:17,411 - Bot wins this round!
+2025-10-06 20:26:17,418 - Current Score -> Player: 0 | Bot: 18 | Draws: 3
+2025-10-06 20:26:17,418 - Move Percentages -> Rock: 33.3% | Paper: 33.3% | Scissors: 33.3%
+2025-10-06 20:26:18,129 - Player: Paper | Bot: Scissors
+2025-10-06 20:26:18,130 - Bot wins this round!
+2025-10-06 20:26:18,141 - Current Score -> Player: 0 | Bot: 19 | Draws: 3
+2025-10-06 20:26:18,143 - Move Percentages -> Rock: 31.8% | Paper: 36.4% | Scissors: 31.8%
+2025-10-06 20:26:21,776 - Player: Scissors | Bot: Rock
+2025-10-06 20:26:21,778 - Bot wins this round!
+2025-10-06 20:26:21,778 - Current Score -> Player: 0 | Bot: 20 | Draws: 3
+2025-10-06 20:26:21,792 - Move Percentages -> Rock: 30.4% | Paper: 34.8% | Scissors: 34.8%
+2025-10-06 20:26:22,500 - Player: Rock | Bot: Paper
+2025-10-06 20:26:22,508 - Bot wins this round!
+2025-10-06 20:26:22,509 - Current Score -> Player: 0 | Bot: 21 | Draws: 3
+2025-10-06 20:26:22,510 - Move Percentages -> Rock: 33.3% | Paper: 33.3% | Scissors: 33.3%
+2025-10-06 20:26:25,153 - Player: Scissors | Bot: Scissors
+2025-10-06 20:26:25,153 - It's a draw!
+2025-10-06 20:26:25,157 - Current Score -> Player: 0 | Bot: 21 | Draws: 4
+2025-10-06 20:26:25,158 - Move Percentages -> Rock: 32.0% | Paper: 32.0% | Scissors: 36.0%
+2025-10-06 20:26:25,926 - Player: Paper | Bot: Paper
+2025-10-06 20:26:25,927 - It's a draw!
+2025-10-06 20:26:25,931 - Current Score -> Player: 0 | Bot: 21 | Draws: 5
+2025-10-06 20:26:25,932 - Move Percentages -> Rock: 30.8% | Paper: 34.6% | Scissors: 34.6%
+2025-10-06 20:26:26,872 - Player: Rock | Bot: Rock
+2025-10-06 20:26:26,873 - It's a draw!
+2025-10-06 20:26:26,875 - Current Score -> Player: 0 | Bot: 21 | Draws: 6
+2025-10-06 20:26:26,876 - Move Percentages -> Rock: 33.3% | Paper: 33.3% | Scissors: 33.3%
+2025-10-06 20:26:28,169 - Player: Scissors | Bot: Scissors
+2025-10-06 20:26:28,170 - It's a draw!
+2025-10-06 20:26:28,180 - Current Score -> Player: 0 | Bot: 21 | Draws: 7
+2025-10-06 20:26:28,181 - Move Percentages -> Rock: 32.1% | Paper: 32.1% | Scissors: 35.7%
+2025-10-06 20:26:28,990 - Player: Paper | Bot: Paper
+2025-10-06 20:26:28,993 - It's a draw!
+2025-10-06 20:26:28,994 - Current Score -> Player: 0 | Bot: 21 | Draws: 8
+2025-10-06 20:26:28,998 - Move Percentages -> Rock: 31.0% | Paper: 34.5% | Scissors: 34.5%
+2025-10-07 19:14:17,695 - Game ended by player.
+2025-10-07 19:14:17,697 - Final Score: Player: 0 | Bot: 0 | Draws: 0

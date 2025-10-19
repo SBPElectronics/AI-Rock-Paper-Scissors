@@ -3011,3 +3011,51 @@ Your move history:
 
 2025-09-23 20:58:10,272 - Reached 20 rounds. Ending game to prevent fatigue.
 
+2025-09-28 21:00:55,958 - Player: Rock | Bot: Rock
+2025-09-28 21:00:55,959 - It's a draw!
+2025-09-28 21:00:55,959 - Current Score -> Player: 0 | Bot: 0 | Draws: 1
+2025-09-28 21:01:02,040 - Player: Paper | Bot: Rock
+2025-09-28 21:01:02,042 - You win this round!
+2025-09-28 21:01:02,042 - Current Score -> Player: 1 | Bot: 0 | Draws: 1
+2025-09-28 21:01:03,879 - Player: Scissors | Bot: Rock
+2025-09-28 21:01:03,881 - Bot wins this round!
+2025-09-28 21:01:03,881 - Current Score -> Player: 1 | Bot: 1 | Draws: 1
+2025-09-28 21:03:30,205 - Player: Paper | Bot: Scissors
+2025-09-28 21:03:30,208 - Bot wins this round!
+2025-09-28 21:03:30,210 - Current Score -> Player: 1 | Bot: 2 | Draws: 1
+2025-09-28 21:03:31,002 - Player: Paper | Bot: Rock
+2025-09-28 21:03:31,006 - You win this round!
+2025-09-28 21:03:31,007 - Current Score -> Player: 2 | Bot: 2 | Draws: 1
+2025-09-28 21:03:31,976 - Player: Paper | Bot: Rock
+2025-09-28 21:03:31,976 - You win this round!
+2025-09-28 21:03:31,978 - Current Score -> Player: 3 | Bot: 2 | Draws: 1
+2025-09-28 21:03:33,633 - Player: Paper | Bot: Paper
+2025-09-28 21:03:33,634 - It's a draw!
+2025-09-28 21:03:33,641 - Current Score -> Player: 3 | Bot: 2 | Draws: 2
+2025-09-28 21:03:34,748 - Player: Paper | Bot: Rock
+2025-09-28 21:03:34,749 - You win this round!
+2025-09-28 21:03:34,750 - Current Score -> Player: 4 | Bot: 2 | Draws: 2
+2025-09-28 21:03:36,177 - Player: Paper | Bot: Paper
+2025-09-28 21:03:36,178 - It's a draw!
+2025-09-28 21:03:36,180 - Current Score -> Player: 4 | Bot: 2 | Draws: 3
+2025-09-28 21:07:55,002 - Player: Rock | Bot: Paper
+2025-09-28 21:07:55,003 - Bot wins this round!
+2025-09-28 21:07:55,004 - Current Score -> Player: 4 | Bot: 3 | Draws: 3
+2025-09-28 21:07:57,116 - Player: Paper | Bot: Paper
+2025-09-28 21:07:57,116 - It's a draw!
+2025-09-28 21:07:57,118 - Current Score -> Player: 4 | Bot: 3 | Draws: 4
+2025-09-28 21:07:58,636 - Player: Scissors | Bot: Paper
+2025-09-28 21:07:58,637 - You win this round!
+2025-09-28 21:07:58,647 - Current Score -> Player: 5 | Bot: 3 | Draws: 4
+2025-09-29 21:14:22,421 - Game ended by player.
+2025-09-29 21:14:25,971 - Player: Rock | Bot: Paper
+2025-09-29 21:14:25,972 - Bot wins this round!
+2025-09-29 21:14:25,972 - Current Score -> Player: 0 | Bot: 1 | Draws: 0
+2025-09-29 21:14:27,522 - Player: Paper | Bot: Rock
+2025-09-29 21:14:27,523 - You win this round!
+2025-09-29 21:14:27,523 - Current Score -> Player: 1 | Bot: 1 | Draws: 0
+2025-10-01 19:57:42,476 - Player: Rock | Bot: Paper
+2025-10-01 19:57:42,476 - Bot wins this round!
+2025-10-01 19:57:42,477 - Current Score -> Player: 0 | Bot: 1 | Draws: 0
+2025-10-01 19:58:00,984 - Game ended by player.
+2025-10-01 19:58:00,984 - Final Score: Player: 0 | Bot: 1 | Draws: 0
