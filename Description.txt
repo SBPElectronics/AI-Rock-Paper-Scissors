@@ -1,0 +1,26 @@
+1. The game starts by asking for the user’s move — Rock, Paper, or Scissors.
+2. It checks if the user has played before (any move history).
+3. If there’s no history, it just accepts the move and continues the loop until it gathers some data.
+4. Once there’s enough history, the engine begins the main logic phase.
+5. The engine checks if any algorithms have been rumbled (3 losses in a row) or disliked (3 draws in a row).
+6. It then maps out all the wins, losses, and draws each algorithm has achieved so far.
+7. If every algorithm is rumbled, it resets them all so the game doesn’t get stuck.
+8. It collects a list of active (unrumbled and not disliked) algorithms that can still be used.
+9. Next, it looks at the recent performance of these algorithms — usually their last 3 to 5 rounds.
+10. It compares which one has performed the best in that period.
+11. If there’s a clear winner, that algorithm is chosen to predict the next move.
+12. If there’s a tie between algorithms, one of them is picked at random to keep things balanced.
+13. The chosen algorithm then makes a prediction about what move the player might use next, using its own internal logic.
+14. The bot decides on its move based on that prediction — sometimes adding a little randomness to stay unpredictable.
+15. The player’s move and the bot’s move are compared to determine the winner of the round.
+16. The scores are updated: Player +1 for a win, Bot +1 for a win, or Draw +1 if neither wins.
+17. The algorithm’s result for that round (Win, Loss, or Draw) is also recorded for future decision-making.
+18. After updating, the game checks again for any algorithms that need to be marked as rumbled or disliked.
+
+19. The engine then prints a full status report showing:
+      – The player and bot scores.
+      – The move percentages (how often each move was used).
+      – The accuracy of the bot’s predictions.
+      – The current performance of each algorithm (wins, losses, draws, and status).
+
+20. Finally, the process loops back to the start, ready for the next player input, continuing until the user chooses to quit.
