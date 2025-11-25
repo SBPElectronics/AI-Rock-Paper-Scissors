@@ -1025,3 +1025,656 @@ Algorithm Performance Table:
 2025-10-28 21:06:54,208 - Algorithm 1     |      1 |      2 |      1 | Draw,Loss,Loss | NO     
 2025-10-28 21:06:54,209 - Algorithm 2     |      0 |      4 |      0 | Loss,Loss,Loss | YES    
 2025-10-28 21:06:54,209 - --------------------------------------------------
+2025-10-29 20:32:59,997 - Bot wins this round!
+2025-10-29 20:32:59,997 - Player: Rock | Bot: Paper
+2025-10-29 20:32:59,997 - Bot used algorithm: Algorithm 1
+2025-10-29 20:32:59,997 - Current Score -> Player: 0 | Bot: 1 | Draws: 0
+2025-10-29 20:32:59,997 - Move Percentages -> Rock: 100.0% | Paper: 0.0% | Scissors: 0.0%
+2025-10-29 20:32:59,998 - AI Prediction Accuracy: 100.00%
+2025-10-29 20:32:59,998 - --------------------------------------------------
+2025-10-29 20:32:59,998 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-10-29 20:32:59,998 - Algorithm 1     |      1 |      0 |      0 | Win          | NO     
+2025-10-29 20:32:59,998 - Algorithm 2     |      0 |      1 |      0 | Loss         | NO     
+2025-10-29 20:32:59,998 - --------------------------------------------------
+2025-10-29 20:33:01,040 - It's a draw!
+2025-10-29 20:33:01,040 - Player: Paper | Bot: Paper
+2025-10-29 20:33:01,040 - Bot used algorithm: Algorithm 1
+2025-10-29 20:33:01,041 - Current Score -> Player: 0 | Bot: 1 | Draws: 1
+2025-10-29 20:33:01,041 - Move Percentages -> Rock: 50.0% | Paper: 50.0% | Scissors: 0.0%
+2025-10-29 20:33:01,041 - AI Prediction Accuracy: 50.00%
+2025-10-29 20:33:01,041 - --------------------------------------------------
+2025-10-29 20:33:01,041 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-10-29 20:33:01,041 - Algorithm 1     |      1 |      0 |      1 | Win,Draw     | NO     
+2025-10-29 20:33:01,041 - Algorithm 2     |      0 |      1 |      1 | Loss,Draw    | NO     
+2025-10-29 20:33:01,041 - --------------------------------------------------
+2025-10-29 20:33:02,794 - You win this round!
+2025-10-29 20:33:02,794 - Player: Scissors | Bot: Paper
+2025-10-29 20:33:02,795 - Bot used algorithm: Algorithm 1
+2025-10-29 20:33:02,795 - Current Score -> Player: 1 | Bot: 1 | Draws: 1
+2025-10-29 20:33:02,795 - Move Percentages -> Rock: 33.3% | Paper: 33.3% | Scissors: 33.3%
+2025-10-29 20:33:02,795 - AI Prediction Accuracy: 33.33%
+2025-10-29 20:33:02,795 - --------------------------------------------------
+2025-10-29 20:33:02,795 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-10-29 20:33:02,795 - Algorithm 1     |      1 |      1 |      1 | Win,Draw,Loss | NO     
+2025-10-29 20:33:02,796 - Algorithm 2     |      0 |      2 |      1 | Loss,Draw,Loss | NO     
+2025-10-29 20:33:02,796 - --------------------------------------------------
+2025-10-29 20:33:03,563 - You win this round!
+2025-10-29 20:33:03,563 - Player: Rock | Bot: Scissors
+2025-10-29 20:33:03,564 - Bot used algorithm: Algorithm 1
+2025-10-29 20:33:03,564 - Current Score -> Player: 2 | Bot: 1 | Draws: 1
+2025-10-29 20:33:03,564 - Move Percentages -> Rock: 50.0% | Paper: 25.0% | Scissors: 25.0%
+2025-10-29 20:33:03,564 - AI Prediction Accuracy: 25.00%
+2025-10-29 20:33:03,564 - --------------------------------------------------
+2025-10-29 20:33:03,564 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-10-29 20:33:03,564 - Algorithm 1     |      1 |      2 |      1 | Draw,Loss,Loss | NO     
+2025-10-29 20:33:03,564 - Algorithm 2     |      1 |      2 |      1 | Draw,Loss,Win | NO     
+2025-10-29 20:33:03,565 - --------------------------------------------------
+2025-10-29 20:33:04,367 - You win this round!
+2025-10-29 20:33:04,367 - Player: Paper | Bot: Rock
+2025-10-29 20:33:04,367 - Bot used algorithm: Algorithm 2
+2025-10-29 20:33:04,368 - Current Score -> Player: 3 | Bot: 1 | Draws: 1
+2025-10-29 20:33:04,368 - Move Percentages -> Rock: 40.0% | Paper: 40.0% | Scissors: 20.0%
+2025-10-29 20:33:04,368 - AI Prediction Accuracy: 20.00%
+2025-10-29 20:33:04,368 - --------------------------------------------------
+2025-10-29 20:33:04,368 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-10-29 20:33:04,368 - Algorithm 1     |      1 |      3 |      1 | Loss,Loss,Loss | YES    
+2025-10-29 20:33:04,368 - Algorithm 2     |      1 |      3 |      1 | Loss,Win,Loss | NO     
+2025-10-29 20:33:04,368 - --------------------------------------------------
+2025-10-29 20:35:18,081 - It's a draw!
+2025-10-29 20:35:18,081 - Player: Rock | Bot: Rock
+2025-10-29 20:35:18,081 - Bot used algorithm: Algorithm 2
+2025-10-29 20:35:18,081 - Current Score -> Player: 3 | Bot: 1 | Draws: 2
+2025-10-29 20:35:18,081 - Move Percentages -> Rock: 50.0% | Paper: 33.3% | Scissors: 16.7%
+2025-10-29 20:35:18,082 - AI Prediction Accuracy: 16.67%
+2025-10-29 20:35:18,082 - --------------------------------------------------
+2025-10-29 20:35:18,082 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-10-29 20:35:18,082 - Algorithm 1     |      1 |      4 |      1 | Loss,Loss,Loss | YES    
+2025-10-29 20:35:18,082 - Algorithm 2     |      1 |      3 |      2 | Win,Loss,Draw | NO     
+2025-10-29 20:35:18,082 - --------------------------------------------------
+2025-10-29 20:35:19,786 - It's a draw!
+2025-10-29 20:35:19,787 - Player: Rock | Bot: Rock
+2025-10-29 20:35:19,787 - Bot used algorithm: Algorithm 2
+2025-10-29 20:35:19,787 - Current Score -> Player: 3 | Bot: 1 | Draws: 3
+2025-10-29 20:35:19,787 - Move Percentages -> Rock: 57.1% | Paper: 28.6% | Scissors: 14.3%
+2025-10-29 20:35:19,787 - AI Prediction Accuracy: 14.29%
+2025-10-29 20:35:19,787 - --------------------------------------------------
+2025-10-29 20:35:19,787 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-10-29 20:35:19,787 - Algorithm 1     |      1 |      5 |      1 | Loss,Loss,Loss | YES    
+2025-10-29 20:35:19,788 - Algorithm 2     |      1 |      3 |      3 | Loss,Draw,Draw | NO     
+2025-10-29 20:35:19,788 - --------------------------------------------------
+2025-10-29 20:35:20,808 - Bot wins this round!
+2025-10-29 20:35:20,808 - Player: Rock | Bot: Paper
+2025-10-29 20:35:20,808 - Bot used algorithm: Algorithm 2
+2025-10-29 20:35:20,808 - Current Score -> Player: 3 | Bot: 2 | Draws: 3
+2025-10-29 20:35:20,808 - Move Percentages -> Rock: 62.5% | Paper: 25.0% | Scissors: 12.5%
+2025-10-29 20:35:20,808 - AI Prediction Accuracy: 25.00%
+2025-10-29 20:35:20,808 - --------------------------------------------------
+2025-10-29 20:35:20,809 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-10-29 20:35:20,809 - Algorithm 1     |      2 |      5 |      1 | Loss,Loss,Win | YES    
+2025-10-29 20:35:20,809 - Algorithm 2     |      2 |      3 |      3 | Draw,Draw,Win | NO     
+2025-10-29 20:35:20,809 - --------------------------------------------------
+2025-10-29 20:37:00,421 - It's a draw!
+2025-10-29 20:37:00,421 - Player: Rock | Bot: Rock
+2025-10-29 20:37:00,421 - Bot used algorithm: Algorithm 2
+2025-10-29 20:37:00,421 - Current Score -> Player: 3 | Bot: 2 | Draws: 4
+2025-10-29 20:37:00,421 - Move Percentages -> Rock: 66.7% | Paper: 22.2% | Scissors: 11.1%
+2025-10-29 20:37:00,422 - AI Prediction Accuracy: 22.22%
+2025-10-29 20:37:00,422 - --------------------------------------------------
+2025-10-29 20:37:00,422 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-10-29 20:37:00,422 - Algorithm 1     |      3 |      5 |      1 | Loss,Win,Win | YES    
+2025-10-29 20:37:00,422 - Algorithm 2     |      2 |      3 |      4 | Draw,Win,Draw | NO     
+2025-10-29 20:37:00,422 - --------------------------------------------------
+2025-10-29 20:37:01,482 - You win this round!
+2025-10-29 20:37:01,482 - Player: Paper | Bot: Rock
+2025-10-29 20:37:01,482 - Bot used algorithm: Algorithm 2
+2025-10-29 20:37:01,482 - Current Score -> Player: 4 | Bot: 2 | Draws: 4
+2025-10-29 20:37:01,482 - Move Percentages -> Rock: 60.0% | Paper: 30.0% | Scissors: 10.0%
+2025-10-29 20:37:01,483 - AI Prediction Accuracy: 20.00%
+2025-10-29 20:37:01,483 - --------------------------------------------------
+2025-10-29 20:37:01,483 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-10-29 20:37:01,483 - Algorithm 1     |      3 |      5 |      2 | Win,Win,Draw | YES    
+2025-10-29 20:37:01,483 - Algorithm 2     |      2 |      4 |      4 | Win,Draw,Loss | NO     
+2025-10-29 20:37:01,483 - --------------------------------------------------
+2025-10-29 20:37:02,849 - You win this round!
+2025-10-29 20:37:02,849 - Player: Scissors | Bot: Paper
+2025-10-29 20:37:02,849 - Bot used algorithm: Algorithm 2
+2025-10-29 20:37:02,849 - Current Score -> Player: 5 | Bot: 2 | Draws: 4
+2025-10-29 20:37:02,849 - Move Percentages -> Rock: 54.5% | Paper: 27.3% | Scissors: 18.2%
+2025-10-29 20:37:02,849 - AI Prediction Accuracy: 18.18%
+2025-10-29 20:37:02,849 - --------------------------------------------------
+2025-10-29 20:37:02,850 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-10-29 20:37:02,850 - Algorithm 1     |      3 |      6 |      2 | Win,Draw,Loss | YES    
+2025-10-29 20:37:02,850 - Algorithm 2     |      2 |      5 |      4 | Draw,Loss,Loss | NO     
+2025-10-29 20:37:02,850 - --------------------------------------------------
+2025-10-29 20:37:03,494 - It's a draw!
+2025-10-29 20:37:03,494 - Player: Rock | Bot: Rock
+2025-10-29 20:37:03,494 - Bot used algorithm: Algorithm 2
+2025-10-29 20:37:03,494 - Current Score -> Player: 5 | Bot: 2 | Draws: 5
+2025-10-29 20:37:03,494 - Move Percentages -> Rock: 58.3% | Paper: 25.0% | Scissors: 16.7%
+2025-10-29 20:37:03,494 - AI Prediction Accuracy: 16.67%
+2025-10-29 20:37:03,495 - --------------------------------------------------
+2025-10-29 20:37:03,495 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-10-29 20:37:03,495 - Algorithm 1     |      4 |      6 |      2 | Draw,Loss,Win | YES    
+2025-10-29 20:37:03,495 - Algorithm 2     |      2 |      5 |      5 | Loss,Loss,Draw | NO     
+2025-10-29 20:37:03,495 - --------------------------------------------------
+2025-10-29 20:43:12,169 - Bot wins this round!
+2025-10-29 20:43:12,169 - Player: Rock | Bot: Paper
+2025-10-29 20:43:12,170 - Bot used algorithm: Algorithm 2
+2025-10-29 20:43:12,170 - Current Score -> Player: 5 | Bot: 3 | Draws: 5
+2025-10-29 20:43:12,170 - Move Percentages -> Rock: 61.5% | Paper: 23.1% | Scissors: 15.4%
+2025-10-29 20:43:12,171 - AI Prediction Accuracy: 23.08%
+2025-10-29 20:43:12,171 - --------------------------------------------------
+2025-10-29 20:43:12,171 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-10-29 20:43:12,172 - Algorithm 1     |      5 |      6 |      2 | Loss,Win,Win | YES    
+2025-10-29 20:43:12,172 - Algorithm 2     |      3 |      5 |      5 | Loss,Draw,Win | NO     
+2025-10-29 20:43:12,172 - --------------------------------------------------
+2025-10-29 20:43:23,754 - Bot wins this round!
+2025-10-29 20:43:23,754 - Player: Rock | Bot: Paper
+2025-10-29 20:43:23,754 - Bot used algorithm: Algorithm 2
+2025-10-29 20:43:23,755 - Current Score -> Player: 0 | Bot: 1 | Draws: 0
+2025-10-29 20:43:23,755 - Move Percentages -> Rock: 100.0% | Paper: 0.0% | Scissors: 0.0%
+2025-10-29 20:43:23,755 - AI Prediction Accuracy: 100.00%
+2025-10-29 20:43:23,755 - --------------------------------------------------
+2025-10-29 20:43:23,756 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-10-29 20:43:23,756 - Algorithm 1     |      1 |      0 |      0 | Win          | NO     
+2025-10-29 20:43:23,756 - Algorithm 2     |      1 |      0 |      0 | Win          | NO     
+2025-10-29 20:43:23,756 - --------------------------------------------------
+2025-10-29 21:09:54,677 - Bot wins this round!
+2025-10-29 21:09:54,678 - Player: Rock | Bot: Paper
+2025-10-29 21:09:54,679 - Bot used algorithm: Algorithm 2
+2025-10-29 21:09:54,680 - Current Score -> Player: 0 | Bot: 2 | Draws: 0
+2025-10-29 21:09:54,681 - Move Percentages -> Rock: 100.0% | Paper: 0.0% | Scissors: 0.0%
+2025-10-29 21:09:54,681 - AI Prediction Accuracy: 100.00%
+2025-10-29 21:09:54,682 - --------------------------------------------------
+2025-10-29 21:09:54,682 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-10-29 21:09:54,683 - Algorithm 1     |      2 |      0 |      0 | Win,Win      | NO     
+2025-10-29 21:09:54,683 - Algorithm 2     |      2 |      0 |      0 | Win,Win      | NO     
+2025-10-29 21:09:54,684 - --------------------------------------------------
+2025-10-29 21:10:02,558 - Player: Rock | Bot: Scissors | Algo: Algorithm 2 | Result: Win
+2025-10-29 21:10:02,558 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-10-29 21:10:02,558 - Algorithm 2 -> W:1 L:0 D:0 | ACTIVE
+2025-10-29 21:10:02,559 - ------------------------------------------------------------
+2025-10-29 21:10:03,266 - Player: Paper | Bot: Rock | Algo: Algorithm 2 | Result: Win
+2025-10-29 21:10:03,266 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-10-29 21:10:03,266 - Algorithm 2 -> W:2 L:0 D:0 | ACTIVE
+2025-10-29 21:10:03,266 - ------------------------------------------------------------
+2025-10-29 21:10:04,630 - Player: Scissors | Bot: Rock | Algo: Algorithm 2 | Result: Loss
+2025-10-29 21:10:04,630 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-10-29 21:10:04,630 - Algorithm 2 -> W:2 L:1 D:0 | ACTIVE
+2025-10-29 21:10:04,631 - ------------------------------------------------------------
+2025-10-29 21:10:05,399 - Player: Rock | Bot: Scissors | Algo: Algorithm 2 | Result: Win
+2025-10-29 21:10:05,399 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-10-29 21:10:05,400 - Algorithm 2 -> W:3 L:1 D:0 | ACTIVE
+2025-10-29 21:10:05,400 - ------------------------------------------------------------
+2025-10-29 21:10:07,571 - Player: Paper | Bot: Scissors | Algo: Algorithm 2 | Result: Loss
+2025-10-29 21:10:07,572 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-10-29 21:10:07,572 - Algorithm 2 -> W:3 L:2 D:0 | ACTIVE
+2025-10-29 21:10:07,572 - ------------------------------------------------------------
+2025-10-29 21:10:08,758 - Player: Scissors | Bot: Paper | Algo: Algorithm 2 | Result: Win
+2025-10-29 21:10:08,759 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-10-29 21:10:08,759 - Algorithm 2 -> W:4 L:2 D:0 | ACTIVE
+2025-10-29 21:10:08,759 - ------------------------------------------------------------
+2025-10-29 21:10:09,383 - Player: Rock | Bot: Scissors | Algo: Algorithm 2 | Result: Win
+2025-10-29 21:10:09,384 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-10-29 21:10:09,384 - Algorithm 2 -> W:5 L:2 D:0 | ACTIVE
+2025-10-29 21:10:09,384 - ------------------------------------------------------------
+2025-10-29 21:10:14,209 - Player: Paper | Bot: Scissors | Algo: Algorithm 2 | Result: Loss
+2025-10-29 21:10:14,209 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-10-29 21:10:14,210 - Algorithm 2 -> W:5 L:3 D:0 | ACTIVE
+2025-10-29 21:10:14,210 - ------------------------------------------------------------
+2025-10-29 21:18:13,893 - Player: Rock | Bot: Paper | Algo: Algorithm 2 | Result: Loss
+2025-10-29 21:18:13,894 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-10-29 21:18:13,894 - Algorithm 2 -> W:0 L:1 D:0 | ACTIVE
+2025-10-29 21:18:13,894 - ------------------------------------------------------------
+2025-10-29 21:18:14,923 - Player: Paper | Bot: Scissors | Algo: Algorithm 1 | Result: Loss
+2025-10-29 21:18:14,924 - Algorithm 1 -> W:0 L:1 D:0 | ACTIVE
+2025-10-29 21:18:14,924 - Algorithm 2 -> W:0 L:1 D:0 | ACTIVE
+2025-10-29 21:18:14,924 - ------------------------------------------------------------
+2025-10-29 21:18:17,339 - Player: Scissors | Bot: Paper | Algo: Algorithm 1 | Result: Win
+2025-10-29 21:18:17,339 - Algorithm 1 -> W:1 L:1 D:0 | ACTIVE
+2025-10-29 21:18:17,339 - Algorithm 2 -> W:0 L:1 D:0 | ACTIVE
+2025-10-29 21:18:17,339 - ------------------------------------------------------------
+2025-10-29 21:18:18,148 - Player: Rock | Bot: Scissors | Algo: Algorithm 1 | Result: Win
+2025-10-29 21:18:18,148 - Algorithm 1 -> W:2 L:1 D:0 | ACTIVE
+2025-10-29 21:18:18,148 - Algorithm 2 -> W:0 L:1 D:0 | ACTIVE
+2025-10-29 21:18:18,148 - ------------------------------------------------------------
+2025-10-29 21:18:19,265 - Player: Paper | Bot: Rock | Algo: Algorithm 1 | Result: Win
+2025-10-29 21:18:19,265 - Algorithm 1 -> W:3 L:1 D:0 | ACTIVE
+2025-10-29 21:18:19,265 - Algorithm 2 -> W:0 L:1 D:0 | ACTIVE
+2025-10-29 21:18:19,265 - ------------------------------------------------------------
+2025-10-29 21:18:20,462 - Player: Scissors | Bot: Paper | Algo: Algorithm 1 | Result: Win
+2025-10-29 21:18:20,462 - Algorithm 1 -> W:4 L:1 D:0 | ACTIVE
+2025-10-29 21:18:20,462 - Algorithm 2 -> W:0 L:1 D:0 | ACTIVE
+2025-10-29 21:18:20,462 - ------------------------------------------------------------
+2025-10-29 21:18:21,182 - Player: Rock | Bot: Scissors | Algo: Algorithm 1 | Result: Win
+2025-10-29 21:18:21,182 - Algorithm 1 -> W:5 L:1 D:0 | ACTIVE
+2025-10-29 21:18:21,182 - Algorithm 2 -> W:0 L:1 D:0 | ACTIVE
+2025-10-29 21:18:21,182 - ------------------------------------------------------------
+2025-10-29 21:18:22,120 - Player: Paper | Bot: Rock | Algo: Algorithm 1 | Result: Win
+2025-10-29 21:18:22,120 - Algorithm 1 -> W:6 L:1 D:0 | ACTIVE
+2025-10-29 21:18:22,120 - Algorithm 2 -> W:0 L:1 D:0 | ACTIVE
+2025-10-29 21:18:22,121 - ------------------------------------------------------------
+2025-10-29 21:18:23,133 - Player: Scissors | Bot: Paper | Algo: Algorithm 1 | Result: Win
+2025-10-29 21:18:23,133 - Algorithm 1 -> W:7 L:1 D:0 | ACTIVE
+2025-10-29 21:18:23,133 - Algorithm 2 -> W:0 L:1 D:0 | ACTIVE
+2025-10-29 21:18:23,133 - ------------------------------------------------------------
+2025-11-01 18:42:48,044 - Player: Rock | Bot: Rock | Algo: Algorithm 1 | Result: Draw
+2025-11-01 18:42:48,045 - Algorithm 1 -> W:0 L:0 D:1 | ACTIVE
+2025-11-01 18:42:48,045 - Algorithm 2 -> W:0 L:0 D:0 | ACTIVE
+2025-11-01 18:42:48,045 - ------------------------------------------------------------
+2025-11-01 18:43:06,453 - Player: Rock | Bot: Rock | Algo: Algorithm 2 | Result: Draw
+2025-11-01 18:43:06,453 - Algorithm 1 -> W:0 L:0 D:1 | ACTIVE
+2025-11-01 18:43:06,453 - Algorithm 2 -> W:0 L:0 D:1 | ACTIVE
+2025-11-01 18:43:06,453 - ------------------------------------------------------------
+2025-11-01 18:43:14,823 - Player: Rock | Bot: Paper | Algo: Algorithm 2 | Result: Loss
+2025-11-01 18:43:14,824 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-11-01 18:43:14,824 - Algorithm 2 -> W:0 L:1 D:0 | ACTIVE
+2025-11-01 18:43:14,824 - ------------------------------------------------------------
+2025-11-01 18:44:54,175 - Player: Rock | Bot: Paper | Algo: Algorithm 2 | Result: Loss
+2025-11-01 18:44:54,175 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-11-01 18:44:54,175 - Algorithm 2 -> W:0 L:1 D:0 | ACTIVE
+2025-11-01 18:44:54,175 - ------------------------------------------------------------
+2025-11-01 18:44:57,306 - Player: Paper | Bot: Rock | Algo: Algorithm 2 | Result: Win
+2025-11-01 18:44:57,306 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-11-01 18:44:57,306 - Algorithm 2 -> W:1 L:1 D:0 | ACTIVE
+2025-11-01 18:44:57,306 - ------------------------------------------------------------
+2025-11-01 18:44:59,214 - Player: Scissors | Bot: Paper | Algo: Algorithm 2 | Result: Win
+2025-11-01 18:44:59,214 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-11-01 18:44:59,214 - Algorithm 2 -> W:2 L:1 D:0 | ACTIVE
+2025-11-01 18:44:59,214 - ------------------------------------------------------------
+2025-11-01 18:45:03,348 - Player: Rock | Bot: Paper | Algo: Algorithm 2 | Result: Loss
+2025-11-01 18:45:03,349 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-11-01 18:45:03,349 - Algorithm 2 -> W:2 L:2 D:0 | ACTIVE
+2025-11-01 18:45:03,349 - ------------------------------------------------------------
+2025-11-01 18:45:10,492 - Player: Paper | Bot: Rock | Algo: Algorithm 2 | Result: Win
+2025-11-01 18:45:10,492 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-11-01 18:45:10,492 - Algorithm 2 -> W:3 L:2 D:0 | ACTIVE
+2025-11-01 18:45:10,492 - ------------------------------------------------------------
+2025-11-01 18:45:11,782 - Player: Scissors | Bot: Scissors | Algo: Algorithm 2 | Result: Draw
+2025-11-01 18:45:11,782 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-11-01 18:45:11,782 - Algorithm 2 -> W:3 L:2 D:1 | ACTIVE
+2025-11-01 18:45:11,782 - ------------------------------------------------------------
+2025-11-01 18:45:12,452 - Player: Rock | Bot: Scissors | Algo: Algorithm 2 | Result: Win
+2025-11-01 18:45:12,453 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-11-01 18:45:12,453 - Algorithm 2 -> W:4 L:2 D:1 | ACTIVE
+2025-11-01 18:45:12,453 - ------------------------------------------------------------
+2025-11-01 18:45:13,227 - Player: Paper | Bot: Scissors | Algo: Algorithm 2 | Result: Loss
+2025-11-01 18:45:13,227 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-11-01 18:45:13,227 - Algorithm 2 -> W:4 L:3 D:1 | ACTIVE
+2025-11-01 18:45:13,227 - ------------------------------------------------------------
+2025-11-01 18:45:14,217 - Player: Scissors | Bot: Scissors | Algo: Algorithm 2 | Result: Draw
+2025-11-01 18:45:14,218 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-11-01 18:45:14,218 - Algorithm 2 -> W:4 L:3 D:2 | ACTIVE
+2025-11-01 18:45:14,218 - ------------------------------------------------------------
+2025-11-01 18:45:15,781 - Player: Rock | Bot: Scissors | Algo: Algorithm 2 | Result: Win
+2025-11-01 18:45:15,781 - Algorithm 1 -> W:0 L:0 D:0 | ACTIVE
+2025-11-01 18:45:15,781 - Algorithm 2 -> W:5 L:3 D:2 | ACTIVE
+2025-11-01 18:45:15,781 - ------------------------------------------------------------
+2025-11-01 18:48:50,624 - Player: Rock | Bot: Rock | Algo: Algorithm 2 | Result: Draw
+2025-11-01 18:48:50,624 - Algorithm 1 -> W:0 L:0 D:1 | ACTIVE
+2025-11-01 18:48:50,624 - Algorithm 2 -> W:0 L:0 D:2 | ACTIVE
+2025-11-01 18:48:50,624 - ------------------------------------------------------------
+2025-11-01 18:48:51,908 - Player: Paper | Bot: Paper | Algo: Algorithm 1 | Result: Draw
+2025-11-01 18:48:51,909 - Algorithm 1 -> W:0 L:0 D:3 | ACTIVE
+2025-11-01 18:48:51,909 - Algorithm 2 -> W:0 L:1 D:2 | ACTIVE
+2025-11-01 18:48:51,909 - ------------------------------------------------------------
+2025-11-01 18:48:53,506 - Player: Scissors | Bot: Paper | Algo: Algorithm 1 | Result: Loss
+2025-11-01 18:48:53,506 - Algorithm 1 -> W:0 L:2 D:3 | ACTIVE
+2025-11-01 18:48:53,506 - Algorithm 2 -> W:0 L:2 D:2 | ACTIVE
+2025-11-01 18:48:53,507 - ------------------------------------------------------------
+2025-11-01 18:48:54,568 - Player: Rock | Bot: Rock | Algo: Algorithm 2 | Result: Draw
+2025-11-01 18:48:54,568 - Algorithm 1 -> W:0 L:3 D:3 | RUMBLED
+2025-11-01 18:48:54,568 - Algorithm 2 -> W:0 L:2 D:4 | ACTIVE
+2025-11-01 18:48:54,568 - ------------------------------------------------------------
+2025-11-01 18:48:55,842 - Player: Paper | Bot: Scissors | Algo: Algorithm 2 | Result: Win
+2025-11-01 18:48:55,842 - Algorithm 1 -> W:0 L:4 D:3 | RUMBLED
+2025-11-01 18:48:55,842 - Algorithm 2 -> W:2 L:2 D:4 | ACTIVE
+2025-11-01 18:48:55,842 - ------------------------------------------------------------
+2025-11-01 18:48:57,280 - Player: Scissors | Bot: Rock | Algo: Algorithm 2 | Result: Win
+2025-11-01 18:48:57,280 - Algorithm 1 -> W:0 L:5 D:3 | RUMBLED
+2025-11-01 18:48:57,280 - Algorithm 2 -> W:4 L:2 D:4 | ACTIVE
+2025-11-01 18:48:57,280 - ------------------------------------------------------------
+2025-11-01 18:48:58,328 - Player: Rock | Bot: Rock | Algo: Algorithm 2 | Result: Draw
+2025-11-01 18:48:58,328 - Algorithm 1 -> W:0 L:6 D:3 | RUMBLED
+2025-11-01 18:48:58,328 - Algorithm 2 -> W:4 L:2 D:6 | ACTIVE
+2025-11-01 18:48:58,328 - ------------------------------------------------------------
+2025-11-01 18:49:00,849 - Player: Scissors | Bot: Rock | Algo: Algorithm 2 | Result: Win
+2025-11-01 18:49:00,849 - Algorithm 1 -> W:0 L:7 D:3 | RUMBLED
+2025-11-01 18:49:00,849 - Algorithm 2 -> W:6 L:2 D:6 | ACTIVE
+2025-11-01 18:49:00,849 - ------------------------------------------------------------
+2025-11-01 18:49:02,609 - Player: Paper | Bot: Scissors | Algo: Algorithm 2 | Result: Win
+2025-11-01 18:49:02,609 - Algorithm 1 -> W:0 L:8 D:3 | RUMBLED
+2025-11-01 18:49:02,609 - Algorithm 2 -> W:8 L:2 D:6 | ACTIVE
+2025-11-01 18:49:02,609 - ------------------------------------------------------------
+2025-11-01 18:49:12,635 - Player: Rock | Bot: Paper | Algo: Algorithm 2 | Result: Win
+2025-11-01 18:49:12,635 - Algorithm 1 -> W:0 L:9 D:3 | RUMBLED
+2025-11-01 18:49:12,635 - Algorithm 2 -> W:10 L:2 D:6 | ACTIVE
+2025-11-01 18:49:12,635 - ------------------------------------------------------------
+2025-11-01 18:49:13,492 - Player: Rock | Bot: Rock | Algo: Algorithm 2 | Result: Draw
+2025-11-01 18:49:13,492 - Algorithm 1 -> W:0 L:10 D:3 | RUMBLED
+2025-11-01 18:49:13,492 - Algorithm 2 -> W:10 L:2 D:8 | ACTIVE
+2025-11-01 18:49:13,492 - ------------------------------------------------------------
+2025-11-01 18:49:15,627 - Player: Rock | Bot: Rock | Algo: Algorithm 2 | Result: Draw
+2025-11-01 18:49:15,628 - Algorithm 1 -> W:1 L:10 D:3 | RUMBLED
+2025-11-01 18:49:15,628 - Algorithm 2 -> W:10 L:2 D:10 | ACTIVE
+2025-11-01 18:49:15,628 - ------------------------------------------------------------
+2025-11-01 18:49:16,894 - Player: Rock | Bot: Rock | Algo: Algorithm 2 | Result: Draw
+2025-11-01 18:49:16,894 - Algorithm 1 -> W:2 L:10 D:3 | RUMBLED
+2025-11-01 18:49:16,895 - Algorithm 2 -> W:10 L:2 D:12 | ACTIVE
+2025-11-01 18:49:16,895 - ------------------------------------------------------------
+2025-11-01 18:49:18,609 - Player: Rock | Bot: Scissors | Algo: Algorithm 2 | Result: Loss
+2025-11-01 18:49:18,609 - Algorithm 1 -> W:3 L:10 D:3 | ACTIVE
+2025-11-01 18:49:18,609 - Algorithm 2 -> W:10 L:3 D:13 | ACTIVE
+2025-11-01 18:49:18,609 - ------------------------------------------------------------
+2025-11-01 18:49:20,682 - Player: Rock | Bot: Rock | Algo: Algorithm 2 | Result: Draw
+2025-11-01 18:49:20,682 - Algorithm 1 -> W:4 L:10 D:3 | ACTIVE
+2025-11-01 18:49:20,682 - Algorithm 2 -> W:10 L:3 D:15 | ACTIVE
+2025-11-01 18:49:20,682 - ------------------------------------------------------------
+2025-11-01 18:49:22,058 - Player: Rock | Bot: Rock | Algo: Algorithm 2 | Result: Draw
+2025-11-01 18:49:22,058 - Algorithm 1 -> W:5 L:10 D:3 | ACTIVE
+2025-11-01 18:49:22,058 - Algorithm 2 -> W:10 L:3 D:17 | ACTIVE
+2025-11-01 18:49:22,058 - ------------------------------------------------------------
+2025-11-01 18:49:23,451 - Player: Rock | Bot: Rock | Algo: Algorithm 2 | Result: Draw
+2025-11-01 18:49:23,451 - Algorithm 1 -> W:6 L:10 D:3 | ACTIVE
+2025-11-01 18:49:23,451 - Algorithm 2 -> W:10 L:3 D:19 | ACTIVE
+2025-11-01 18:49:23,451 - ------------------------------------------------------------
+2025-11-01 18:49:28,743 - Player: Rock | Bot: Rock | Algo: Algorithm 2 | Result: Draw
+2025-11-01 18:49:28,743 - Algorithm 1 -> W:7 L:10 D:3 | ACTIVE
+2025-11-01 18:49:28,744 - Algorithm 2 -> W:10 L:3 D:21 | ACTIVE
+2025-11-01 18:49:28,744 - ------------------------------------------------------------
+2025-11-01 18:49:29,767 - Player: Rock | Bot: Rock | Algo: Algorithm 2 | Result: Draw
+2025-11-01 18:49:29,767 - Algorithm 1 -> W:8 L:10 D:3 | ACTIVE
+2025-11-01 18:49:29,767 - Algorithm 2 -> W:10 L:3 D:23 | ACTIVE
+2025-11-01 18:49:29,767 - ------------------------------------------------------------
+2025-11-01 18:49:30,734 - Player: Rock | Bot: Rock | Algo: Algorithm 2 | Result: Draw
+2025-11-01 18:49:30,735 - Algorithm 1 -> W:9 L:10 D:3 | ACTIVE
+2025-11-01 18:49:30,735 - Algorithm 2 -> W:10 L:3 D:25 | ACTIVE
+2025-11-01 18:49:30,735 - ------------------------------------------------------------
+2025-11-01 18:49:31,592 - Player: Rock | Bot: Rock | Algo: Algorithm 2 | Result: Draw
+2025-11-01 18:49:31,592 - Algorithm 1 -> W:10 L:10 D:3 | ACTIVE
+2025-11-01 18:49:31,592 - Algorithm 2 -> W:10 L:3 D:27 | ACTIVE
+2025-11-01 18:49:31,592 - ------------------------------------------------------------
+2025-11-01 18:49:32,339 - Player: Rock | Bot: Paper | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:32,339 - Algorithm 1 -> W:12 L:10 D:3 | ACTIVE
+2025-11-01 18:49:32,339 - Algorithm 2 -> W:10 L:3 D:28 | ACTIVE
+2025-11-01 18:49:32,339 - ------------------------------------------------------------
+2025-11-01 18:49:33,118 - Player: Rock | Bot: Paper | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:33,118 - Algorithm 1 -> W:14 L:10 D:3 | ACTIVE
+2025-11-01 18:49:33,118 - Algorithm 2 -> W:10 L:3 D:29 | ACTIVE
+2025-11-01 18:49:33,118 - ------------------------------------------------------------
+2025-11-01 18:49:33,985 - Player: Rock | Bot: Paper | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:33,985 - Algorithm 1 -> W:16 L:10 D:3 | ACTIVE
+2025-11-01 18:49:33,985 - Algorithm 2 -> W:10 L:3 D:30 | ACTIVE
+2025-11-01 18:49:33,985 - ------------------------------------------------------------
+2025-11-01 18:49:35,113 - Player: Rock | Bot: Paper | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:35,114 - Algorithm 1 -> W:18 L:10 D:3 | ACTIVE
+2025-11-01 18:49:35,114 - Algorithm 2 -> W:10 L:3 D:31 | ACTIVE
+2025-11-01 18:49:35,114 - ------------------------------------------------------------
+2025-11-01 18:49:35,827 - Player: Paper | Bot: Rock | Algo: Algorithm 1 | Result: Loss
+2025-11-01 18:49:35,827 - Algorithm 1 -> W:18 L:12 D:3 | ACTIVE
+2025-11-01 18:49:35,827 - Algorithm 2 -> W:11 L:3 D:31 | ACTIVE
+2025-11-01 18:49:35,827 - ------------------------------------------------------------
+2025-11-01 18:49:37,374 - Player: Paper | Bot: Paper | Algo: Algorithm 1 | Result: Draw
+2025-11-01 18:49:37,374 - Algorithm 1 -> W:18 L:13 D:4 | ACTIVE
+2025-11-01 18:49:37,374 - Algorithm 2 -> W:11 L:3 D:32 | ACTIVE
+2025-11-01 18:49:37,374 - ------------------------------------------------------------
+2025-11-01 18:49:38,198 - Player: Paper | Bot: Scissors | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:38,198 - Algorithm 1 -> W:20 L:13 D:4 | ACTIVE
+2025-11-01 18:49:38,198 - Algorithm 2 -> W:11 L:3 D:33 | ACTIVE
+2025-11-01 18:49:38,198 - ------------------------------------------------------------
+2025-11-01 18:49:39,023 - Player: Paper | Bot: Scissors | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:39,023 - Algorithm 1 -> W:22 L:13 D:4 | ACTIVE
+2025-11-01 18:49:39,023 - Algorithm 2 -> W:11 L:3 D:34 | ACTIVE
+2025-11-01 18:49:39,023 - ------------------------------------------------------------
+2025-11-01 18:49:41,580 - Player: Paper | Bot: Scissors | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:41,581 - Algorithm 1 -> W:24 L:13 D:4 | ACTIVE
+2025-11-01 18:49:41,581 - Algorithm 2 -> W:11 L:3 D:35 | ACTIVE
+2025-11-01 18:49:41,581 - ------------------------------------------------------------
+2025-11-01 18:49:42,702 - Player: Paper | Bot: Scissors | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:42,702 - Algorithm 1 -> W:26 L:13 D:4 | ACTIVE
+2025-11-01 18:49:42,702 - Algorithm 2 -> W:11 L:3 D:36 | ACTIVE
+2025-11-01 18:49:42,703 - ------------------------------------------------------------
+2025-11-01 18:49:44,037 - Player: Paper | Bot: Scissors | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:44,037 - Algorithm 1 -> W:28 L:13 D:4 | ACTIVE
+2025-11-01 18:49:44,037 - Algorithm 2 -> W:11 L:3 D:37 | ACTIVE
+2025-11-01 18:49:44,037 - ------------------------------------------------------------
+2025-11-01 18:49:45,434 - Player: Scissors | Bot: Paper | Algo: Algorithm 1 | Result: Loss
+2025-11-01 18:49:45,434 - Algorithm 1 -> W:28 L:15 D:4 | ACTIVE
+2025-11-01 18:49:45,434 - Algorithm 2 -> W:11 L:3 D:38 | ACTIVE
+2025-11-01 18:49:45,434 - ------------------------------------------------------------
+2025-11-01 18:49:48,201 - Player: Scissors | Bot: Rock | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:48,201 - Algorithm 1 -> W:29 L:16 D:4 | ACTIVE
+2025-11-01 18:49:48,201 - Algorithm 2 -> W:11 L:3 D:39 | ACTIVE
+2025-11-01 18:49:48,201 - ------------------------------------------------------------
+2025-11-01 18:49:49,515 - Player: Scissors | Bot: Paper | Algo: Algorithm 1 | Result: Loss
+2025-11-01 18:49:49,515 - Algorithm 1 -> W:29 L:18 D:4 | RUMBLED
+2025-11-01 18:49:49,515 - Algorithm 2 -> W:11 L:3 D:40 | ACTIVE
+2025-11-01 18:49:49,515 - ------------------------------------------------------------
+2025-11-01 18:49:50,710 - Player: Scissors | Bot: Rock | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:50,710 - Algorithm 1 -> W:31 L:18 D:4 | RUMBLED
+2025-11-01 18:49:50,710 - Algorithm 2 -> W:11 L:3 D:41 | ACTIVE
+2025-11-01 18:49:50,711 - ------------------------------------------------------------
+2025-11-01 18:49:51,928 - Player: Scissors | Bot: Rock | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:51,928 - Algorithm 1 -> W:33 L:18 D:4 | ACTIVE
+2025-11-01 18:49:51,928 - Algorithm 2 -> W:11 L:3 D:42 | ACTIVE
+2025-11-01 18:49:51,928 - ------------------------------------------------------------
+2025-11-01 18:49:53,316 - Player: Scissors | Bot: Rock | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:53,316 - Algorithm 1 -> W:35 L:18 D:4 | ACTIVE
+2025-11-01 18:49:53,316 - Algorithm 2 -> W:11 L:3 D:43 | ACTIVE
+2025-11-01 18:49:53,316 - ------------------------------------------------------------
+2025-11-01 18:49:55,193 - Player: Rock | Bot: Paper | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:55,194 - Algorithm 1 -> W:37 L:18 D:4 | ACTIVE
+2025-11-01 18:49:55,194 - Algorithm 2 -> W:11 L:4 D:43 | ACTIVE
+2025-11-01 18:49:55,194 - ------------------------------------------------------------
+2025-11-01 18:49:56,407 - Player: Paper | Bot: Scissors | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:56,407 - Algorithm 1 -> W:39 L:18 D:4 | ACTIVE
+2025-11-01 18:49:56,407 - Algorithm 2 -> W:12 L:4 D:43 | ACTIVE
+2025-11-01 18:49:56,407 - ------------------------------------------------------------
+2025-11-01 18:49:57,615 - Player: Scissors | Bot: Rock | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:57,615 - Algorithm 1 -> W:41 L:18 D:4 | ACTIVE
+2025-11-01 18:49:57,615 - Algorithm 2 -> W:12 L:5 D:43 | ACTIVE
+2025-11-01 18:49:57,615 - ------------------------------------------------------------
+2025-11-01 18:49:58,412 - Player: Rock | Bot: Paper | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:49:58,412 - Algorithm 1 -> W:43 L:18 D:4 | ACTIVE
+2025-11-01 18:49:58,412 - Algorithm 2 -> W:12 L:5 D:44 | ACTIVE
+2025-11-01 18:49:58,412 - ------------------------------------------------------------
+2025-11-01 18:50:00,990 - Player: Paper | Bot: Scissors | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:50:00,990 - Algorithm 1 -> W:45 L:18 D:4 | ACTIVE
+2025-11-01 18:50:00,990 - Algorithm 2 -> W:12 L:6 D:44 | ACTIVE
+2025-11-01 18:50:00,990 - ------------------------------------------------------------
+2025-11-01 18:50:02,052 - Player: Paper | Bot: Scissors | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:50:02,052 - Algorithm 1 -> W:47 L:18 D:4 | ACTIVE
+2025-11-01 18:50:02,052 - Algorithm 2 -> W:12 L:6 D:45 | ACTIVE
+2025-11-01 18:50:02,052 - ------------------------------------------------------------
+2025-11-01 18:50:03,277 - Player: Paper | Bot: Scissors | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:50:03,277 - Algorithm 1 -> W:49 L:18 D:4 | ACTIVE
+2025-11-01 18:50:03,277 - Algorithm 2 -> W:12 L:6 D:46 | ACTIVE
+2025-11-01 18:50:03,277 - ------------------------------------------------------------
+2025-11-01 18:50:04,450 - Player: Paper | Bot: Scissors | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:50:04,450 - Algorithm 1 -> W:51 L:18 D:4 | ACTIVE
+2025-11-01 18:50:04,450 - Algorithm 2 -> W:12 L:6 D:47 | ACTIVE
+2025-11-01 18:50:04,450 - ------------------------------------------------------------
+2025-11-01 18:50:05,468 - Player: Paper | Bot: Scissors | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:50:05,468 - Algorithm 1 -> W:53 L:18 D:4 | ACTIVE
+2025-11-01 18:50:05,468 - Algorithm 2 -> W:12 L:6 D:48 | ACTIVE
+2025-11-01 18:50:05,468 - ------------------------------------------------------------
+2025-11-01 18:50:06,690 - Player: Paper | Bot: Scissors | Algo: Algorithm 1 | Result: Win
+2025-11-01 18:50:06,690 - Algorithm 1 -> W:55 L:18 D:4 | ACTIVE
+2025-11-01 18:50:06,691 - Algorithm 2 -> W:12 L:6 D:49 | ACTIVE
+2025-11-01 18:50:06,691 - ------------------------------------------------------------
+2025-11-01 18:50:19,557 - Player: Rock | Bot: Rock | Algo: Algorithm 1 | Result: Draw
+2025-11-01 18:50:19,557 - Algorithm 1 -> W:0 L:0 D:2 | ACTIVE
+2025-11-01 18:50:19,557 - Algorithm 2 -> W:1 L:0 D:0 | ACTIVE
+2025-11-01 18:50:19,557 - ------------------------------------------------------------
+2025-11-01 18:50:20,391 - Player: Paper | Bot: Paper | Algo: Algorithm 1 | Result: Draw
+2025-11-01 18:50:20,391 - Algorithm 1 -> W:0 L:0 D:4 | ACTIVE
+2025-11-01 18:50:20,391 - Algorithm 2 -> W:1 L:1 D:0 | ACTIVE
+2025-11-01 18:50:20,391 - ------------------------------------------------------------
+2025-11-01 18:50:21,432 - Player: Scissors | Bot: Rock | Algo: Algorithm 2 | Result: Win
+2025-11-01 18:50:21,432 - Algorithm 1 -> W:0 L:1 D:4 | ACTIVE
+2025-11-01 18:50:21,432 - Algorithm 2 -> W:3 L:1 D:0 | ACTIVE
+2025-11-01 18:50:21,432 - ------------------------------------------------------------
+2025-11-01 18:50:22,113 - Player: Rock | Bot: Paper | Algo: Algorithm 2 | Result: Win
+2025-11-01 18:50:22,113 - Algorithm 1 -> W:0 L:2 D:4 | ACTIVE
+2025-11-01 18:50:22,113 - Algorithm 2 -> W:5 L:1 D:0 | ACTIVE
+2025-11-01 18:50:22,113 - ------------------------------------------------------------
+2025-11-01 18:53:52,313 - Player: Rock | Bot: Rock | Algo: Algorithm 1 | Result: Draw
+2025-11-01 18:53:52,313 - Algorithm 1 -> W:0 L:0 D:2 | ACTIVE
+2025-11-01 18:53:52,313 - Algorithm 2 -> W:0 L:0 D:1 | ACTIVE
+2025-11-01 18:53:52,313 - ------------------------------------------------------------
+2025-11-01 18:53:59,946 - You win this round!
+2025-11-01 18:53:59,946 - Player: Rock | Bot: Scissors
+2025-11-01 18:53:59,946 - Bot used algorithm: Algorithm 1
+2025-11-01 18:53:59,946 - Current Score -> Player: 1 | Bot: 0 | Draws: 0
+2025-11-01 18:53:59,947 - Move Percentages -> Rock: 100.0% | Paper: 0.0% | Scissors: 0.0%
+2025-11-01 18:53:59,947 - AI Prediction Accuracy: 0.00%
+2025-11-01 18:53:59,947 - --------------------------------------------------
+2025-11-01 18:53:59,947 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-11-01 18:53:59,947 - Algorithm 1     |      0 |      1 |      0 | Loss         | NO     
+2025-11-01 18:53:59,947 - Algorithm 2     |      1 |      0 |      0 | Win          | NO     
+2025-11-01 18:53:59,947 - --------------------------------------------------
+2025-11-01 18:54:01,718 - It's a draw!
+2025-11-01 18:54:01,719 - Player: Paper | Bot: Paper
+2025-11-01 18:54:01,719 - Bot used algorithm: Algorithm 2
+2025-11-01 18:54:01,719 - Current Score -> Player: 1 | Bot: 0 | Draws: 1
+2025-11-01 18:54:01,719 - Move Percentages -> Rock: 50.0% | Paper: 50.0% | Scissors: 0.0%
+2025-11-01 18:54:01,719 - AI Prediction Accuracy: 0.00%
+2025-11-01 18:54:01,720 - --------------------------------------------------
+2025-11-01 18:54:01,720 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-11-01 18:54:01,720 - Algorithm 1     |      0 |      1 |      1 | Loss,Draw    | NO     
+2025-11-01 18:54:01,720 - Algorithm 2     |      1 |      0 |      1 | Win,Draw     | NO     
+2025-11-01 18:54:01,720 - --------------------------------------------------
+2025-11-01 18:54:03,105 - You win this round!
+2025-11-01 18:54:03,105 - Player: Scissors | Bot: Paper
+2025-11-01 18:54:03,105 - Bot used algorithm: Algorithm 2
+2025-11-01 18:54:03,105 - Current Score -> Player: 2 | Bot: 0 | Draws: 1
+2025-11-01 18:54:03,106 - Move Percentages -> Rock: 33.3% | Paper: 33.3% | Scissors: 33.3%
+2025-11-01 18:54:03,106 - AI Prediction Accuracy: 0.00%
+2025-11-01 18:54:03,106 - --------------------------------------------------
+2025-11-01 18:54:03,106 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-11-01 18:54:03,106 - Algorithm 1     |      0 |      2 |      1 | Loss,Draw,Loss | NO     
+2025-11-01 18:54:03,106 - Algorithm 2     |      1 |      1 |      1 | Win,Draw,Loss | NO     
+2025-11-01 18:54:03,106 - --------------------------------------------------
+2025-11-01 18:54:03,822 - You win this round!
+2025-11-01 18:54:03,822 - Player: Rock | Bot: Scissors
+2025-11-01 18:54:03,822 - Bot used algorithm: Algorithm 2
+2025-11-01 18:54:03,823 - Current Score -> Player: 3 | Bot: 0 | Draws: 1
+2025-11-01 18:54:03,823 - Move Percentages -> Rock: 50.0% | Paper: 25.0% | Scissors: 25.0%
+2025-11-01 18:54:03,823 - AI Prediction Accuracy: 0.00%
+2025-11-01 18:54:03,823 - --------------------------------------------------
+2025-11-01 18:54:03,823 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-11-01 18:54:03,823 - Algorithm 1     |      0 |      3 |      1 | Draw,Loss,Loss | NO     
+2025-11-01 18:54:03,824 - Algorithm 2     |      1 |      2 |      1 | Draw,Loss,Loss | NO     
+2025-11-01 18:54:03,824 - --------------------------------------------------
+2025-11-01 18:54:04,577 - You win this round!
+2025-11-01 18:54:04,577 - Player: Paper | Bot: Rock
+2025-11-01 18:54:04,577 - Bot used algorithm: Algorithm 2
+2025-11-01 18:54:04,577 - Current Score -> Player: 4 | Bot: 0 | Draws: 1
+2025-11-01 18:54:04,577 - Move Percentages -> Rock: 40.0% | Paper: 40.0% | Scissors: 20.0%
+2025-11-01 18:54:04,577 - AI Prediction Accuracy: 0.00%
+2025-11-01 18:54:04,578 - --------------------------------------------------
+2025-11-01 18:54:04,578 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-11-01 18:54:04,578 - Algorithm 1     |      0 |      4 |      1 | Loss,Loss,Loss | YES    
+2025-11-01 18:54:04,578 - Algorithm 2     |      1 |      3 |      1 | Loss,Loss,Loss | YES    
+2025-11-01 18:54:04,578 - --------------------------------------------------
+2025-11-01 18:54:07,349 - You win this round!
+2025-11-01 18:54:07,349 - Player: Scissors | Bot: Paper
+2025-11-01 18:54:07,349 - Bot used algorithm: Algorithm 1
+2025-11-01 18:54:07,349 - Current Score -> Player: 5 | Bot: 0 | Draws: 1
+2025-11-01 18:54:07,349 - Move Percentages -> Rock: 33.3% | Paper: 33.3% | Scissors: 33.3%
+2025-11-01 18:54:07,349 - AI Prediction Accuracy: 0.00%
+2025-11-01 18:54:07,350 - --------------------------------------------------
+2025-11-01 18:54:07,350 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-11-01 18:54:07,350 - Algorithm 1     |      0 |      5 |      1 | Loss,Loss,Loss | YES    
+2025-11-01 18:54:07,350 - Algorithm 2     |      1 |      4 |      1 | Loss,Loss,Loss | YES    
+2025-11-01 18:54:07,350 - --------------------------------------------------
+2025-11-01 18:54:08,123 - You win this round!
+2025-11-01 18:54:08,123 - Player: Rock | Bot: Scissors
+2025-11-01 18:54:08,123 - Bot used algorithm: Algorithm 1
+2025-11-01 18:54:08,123 - Current Score -> Player: 6 | Bot: 0 | Draws: 1
+2025-11-01 18:54:08,123 - Move Percentages -> Rock: 42.9% | Paper: 28.6% | Scissors: 28.6%
+2025-11-01 18:54:08,124 - AI Prediction Accuracy: 0.00%
+2025-11-01 18:54:08,124 - --------------------------------------------------
+2025-11-01 18:54:08,124 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-11-01 18:54:08,124 - Algorithm 1     |      0 |      6 |      1 | Loss,Loss,Loss | YES    
+2025-11-01 18:54:08,124 - Algorithm 2     |      2 |      4 |      1 | Loss,Loss,Win | NO     
+2025-11-01 18:54:08,124 - --------------------------------------------------
+2025-11-01 18:54:09,220 - Bot wins this round!
+2025-11-01 18:54:09,220 - Player: Paper | Bot: Scissors
+2025-11-01 18:54:09,220 - Bot used algorithm: Algorithm 2
+2025-11-01 18:54:09,220 - Current Score -> Player: 6 | Bot: 1 | Draws: 1
+2025-11-01 18:54:09,220 - Move Percentages -> Rock: 37.5% | Paper: 37.5% | Scissors: 25.0%
+2025-11-01 18:54:09,220 - AI Prediction Accuracy: 12.50%
+2025-11-01 18:54:09,221 - --------------------------------------------------
+2025-11-01 18:54:09,221 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-11-01 18:54:09,221 - Algorithm 1     |      0 |      7 |      1 | Loss,Loss,Loss | YES    
+2025-11-01 18:54:09,221 - Algorithm 2     |      2 |      4 |      2 | Loss,Win,Draw | NO     
+2025-11-01 18:54:09,221 - --------------------------------------------------
+2025-11-01 18:54:10,460 - You win this round!
+2025-11-01 18:54:10,461 - Player: Scissors | Bot: Paper
+2025-11-01 18:54:10,461 - Bot used algorithm: Algorithm 2
+2025-11-01 18:54:10,461 - Current Score -> Player: 7 | Bot: 1 | Draws: 1
+2025-11-01 18:54:10,461 - Move Percentages -> Rock: 33.3% | Paper: 33.3% | Scissors: 33.3%
+2025-11-01 18:54:10,461 - AI Prediction Accuracy: 11.11%
+2025-11-01 18:54:10,461 - --------------------------------------------------
+2025-11-01 18:54:10,461 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-11-01 18:54:10,462 - Algorithm 1     |      0 |      8 |      1 | Loss,Loss,Loss | YES    
+2025-11-01 18:54:10,462 - Algorithm 2     |      2 |      5 |      2 | Win,Draw,Loss | NO     
+2025-11-01 18:54:10,462 - --------------------------------------------------
+2025-11-01 18:54:13,442 - Bot wins this round!
+2025-11-01 18:54:13,442 - Player: Rock | Bot: Paper
+2025-11-01 18:54:13,442 - Bot used algorithm: Algorithm 2
+2025-11-01 18:54:13,442 - Current Score -> Player: 7 | Bot: 2 | Draws: 1
+2025-11-01 18:54:13,442 - Move Percentages -> Rock: 40.0% | Paper: 30.0% | Scissors: 30.0%
+2025-11-01 18:54:13,442 - AI Prediction Accuracy: 20.00%
+2025-11-01 18:54:13,442 - --------------------------------------------------
+2025-11-01 18:54:13,442 - Algorithm       |   Wins | Losses |  Draws |    Recent(3) | Rumbled
+2025-11-01 18:54:13,443 - Algorithm 1     |      0 |      9 |      1 | Loss,Loss,Loss | YES    
+2025-11-01 18:54:13,443 - Algorithm 2     |      3 |      5 |      2 | Draw,Loss,Win | NO     
+2025-11-01 18:54:13,443 - --------------------------------------------------
+2025-11-01 18:55:16,246 - It's a draw!
+2025-11-01 18:55:17,718 - It's a draw!
+2025-11-01 18:55:19,206 - You win this round!
+2025-11-01 18:55:54,867 - Bot wins this round!
+2025-11-01 18:55:55,730 - It's a draw!
+2025-11-01 18:55:56,828 - You win this round!
+2025-11-01 18:55:57,566 - You win this round!
+2025-11-01 18:55:58,339 - You win this round!
+2025-11-01 18:55:59,477 - You win this round!
+2025-11-01 18:56:00,245 - You win this round!
+2025-11-01 18:56:01,126 - You win this round!
+2025-11-01 18:56:02,142 - You win this round!
+2025-11-01 18:56:02,944 - You win this round!
+2025-11-01 18:56:03,688 - You win this round!
+2025-11-01 18:56:04,659 - You win this round!
+2025-11-01 18:56:05,632 - You win this round!
+2025-11-01 18:56:06,361 - You win this round!
+2025-11-01 18:56:08,687 - You win this round!
+2025-11-01 18:57:39,063 - Bot wins this round!
+2025-11-01 18:57:39,851 - It's a draw!
+2025-11-01 18:57:40,926 - You win this round!
+2025-11-01 18:57:41,443 - You win this round!
+2025-11-01 18:57:42,248 - You win this round!
+2025-11-01 18:57:47,759 - You win this round!
+2025-11-01 18:57:48,801 - You win this round!
+2025-11-01 18:57:49,853 - You win this round!
+2025-11-01 18:57:51,189 - You win this round!
+2025-11-01 18:57:52,387 - You win this round!
+2025-11-01 18:57:54,316 - You win this round!
+2025-11-01 18:57:55,074 - It's a draw!
+2025-11-01 18:57:55,761 - Bot wins this round!
+2025-11-01 18:57:56,457 - You win this round!
+2025-11-01 18:57:57,284 - You win this round!
+2025-11-01 18:57:58,006 - You win this round!
+2025-11-01 18:57:59,163 - You win this round!
+2025-11-01 18:58:02,310 - Bot wins this round!
+2025-11-01 18:58:04,148 - It's a draw!
+2025-11-01 18:58:05,499 - It's a draw!
+2025-11-01 18:58:06,789 - It's a draw!
+2025-11-01 18:58:08,074 - It's a draw!
+2025-11-01 18:58:09,880 - Bot wins this round!
+2025-11-01 18:58:11,475 - Bot wins this round!
+2025-11-01 18:58:14,838 - Bot wins this round!
+2025-11-01 19:00:04,122 - You win this round!
+2025-11-01 19:00:05,720 - You win this round!
+2025-11-01 19:00:06,933 - You win this round!

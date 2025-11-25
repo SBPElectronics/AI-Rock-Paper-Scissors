@@ -6,10 +6,10 @@ logging.basicConfig(filename='smart_rps_log.txt', level=logging.INFO,
 
 dev_mode = 1
 
-def log_print(msg=""):
-    if dev_mode:
-        print(msg)
-    logging.info(msg)
+def log_print(message=""):
+    if dev_mode == 1:
+        print(message)
+    logging.info(message)
 
 move_options = ["Rock", "Paper", "Scissors"]
 beats = {"Rock": "Scissors", "Paper": "Rock", "Scissors": "Paper"}
@@ -17,40 +17,37 @@ loses_to = {v: k for k, v in beats.items()}
 
 score = {"Player": 0, "Bot": 0, "Draws": 0}
 player_history = []
-bot_history = []
 after_move_patterns = {m: {"Rock": 0, "Paper": 0, "Scissors": 0} for m in move_options}
 move_counts = {"Rock": 0, "Paper": 0, "Scissors": 0}
-
-algo_scores = {
-    "Algorithm 1": {"Wins": 0, "Losses": 0, "Draws": 0, "Recent": []},
-    "Algorithm 2": {"Wins": 0, "Losses": 0, "Draws": 0, "Recent": []}
-}
-rumbled_algos = set()
 
 correct_predictions = 0
 total_predictions = 0
 
-def get_winner(player_move, bot_move):
-    if player_move == bot_move:
+# Track performance of each algorithm (wins, losses, draws, and recent outcomes)
+algo_scores = {
+    "Algorithm 1": {"Wins": 0, "Losses": 0, "Draws": 0, "Recent": []},
+    "Algorithm 2": {"Wins": 0, "Losses": 0, "Draws": 0, "Recent": []}
+}
+
+rumbled_algos = set()
+disliked_algos = set()
+
+
+def get_winner(player, bot):
+    if player == bot:
         return "Draw"
-    elif beats[player_move] == bot_move:
+    elif beats[player] == bot:
         return "Player"
     else:
         return "Bot"
 
-def update_algo_performance(algo_name, outcome_label):
-    plural_map = {"Win": "Wins", "Loss": "Losses", "Draw": "Draws"}
-    key = plural_map.get(outcome_label)
-    if key:
-        algo_scores[algo_name][key] += 1
-
-    algo_scores[algo_name]["Recent"].append(outcome_label)
-    if len(algo_scores[algo_name]["Recent"]) > 3:
-        algo_scores[algo_name]["Recent"].pop(0)
-
-    if len(algo_scores[algo_name]["Recent"]) >= 3 and \
-       algo_scores[algo_name]["Recent"][-3:] == ["Loss", "Loss", "Loss"]:
-        rumbled_algos.add(algo_name)
+def weighted_choice():
+    total = sum(move_counts.values())
+    if total == 0:
+        return random.choice(move_options)
+    weights = {m: move_counts[m] / total for m in move_options}
+    most_common = max(weights, key=weights.get)
+    return loses_to[most_common]
 
 def algorithm_1():
     if len(player_history) < 2:
@@ -60,42 +57,93 @@ def algorithm_1():
     return loses_to[next_likely]
 
 def algorithm_2():
+    # Frequency Analysis: Predict player will favor or counter their most frequent move
     total = sum(move_counts.values())
     if total == 0:
         return random.choice(move_options)
-    freqs = {m: move_counts[m] / total for m in move_options}
-    most_common = max(freqs, key=freqs.get)
-    least_common = min(freqs, key=freqs.get)
-    predicted = most_common if random.random() < 0.7 else least_common
-    return loses_to[predicted]
+    frequencies = {m: move_counts[m] / total for m in move_options}
+    most_freq = max(frequencies, key=frequencies.get)
+    least_freq = min(frequencies, key=frequencies.get)
+    # Decide which tendency is stronger: leaning on frequent or balancing least frequent
+    if frequencies[most_freq] > 0.5:
+        # Player likely to keep playing most frequent move, so counter it
+        return loses_to[most_freq]
+    else:
+        # Player might balance by using least frequent move, so counter that
+        return loses_to[least_freq]
+
+def update_algo_performance(algo_name, outcome):
+    # Existing mapping...
+    mapping = {
+        "Win": "Wins",
+        "Loss": "Losses",
+        "Draw": "Draws"
+    }
+    key = mapping.get(outcome)
+    if key is None:
+        return
+
+    algo_scores[algo_name][key] += 1
+    recent = algo_scores[algo_name]["Recent"]
+    recent.append(outcome)
+    if len(recent) > 5:
+        recent.pop(0)
+
+    # Check for 3 losses in a row -> Rumbled
+    if len(recent) >= 3:
+        last_three = recent[-3:]
+        if last_three == ["Loss", "Loss", "Loss"]:
+            rumbled_algos.add(algo_name)
+        else:
+            rumbled_algos.discard(algo_name)
+
+    # Check for 3 draws in a row -> Disliked
+    if len(recent) >= 3:
+        last_three = recent[-3:]
+        if last_three == ["Draw", "Draw", "Draw"]:
+            disliked_algos.add(algo_name)
+        else:
+            disliked_algos.discard(algo_name)
+
+
 
 def choose_algorithm():
+    # If all algorithms are rumbled, clear rumbled set (reset)
     if len(rumbled_algos) == len(algo_scores):
         rumbled_algos.clear()
 
-    valid_algos = [a for a in algo_scores if a not in rumbled_algos]
-    if not valid_algos:
-        valid_algos = list(algo_scores.keys())
+    # Filter only unrumbled algorithms
+    available_algos = [algo for algo in algo_scores if algo not in rumbled_algos]
+    if not available_algos:
+        available_algos = list(algo_scores.keys())  # fallback in case all are rumbled
 
-    if len(valid_algos) == 1:
-        return valid_algos[0]
+    # Compare wins in last 3 rounds (or total wins if preferred)
+    # For now, using total wins as simpler proxy
+    best_algo = None
+    best_wins = -1
+    for algo in available_algos:
+        wins = algo_scores[algo]["Wins"]
+        if wins > best_wins:
+            best_wins = wins
+            best_algo = algo
 
-    # Use recent window (last up to 3 results) to pick the best performing algorithm
-    scores = {}
-    for a in valid_algos:
-        recent = algo_scores[a]["Recent"][-3:]
-        wins = recent.count("Win")
-        losses = recent.count("Loss")
-        scores[a] = wins - losses
+    # If tie or no clear best, pick random
+    if best_wins == 0:
+        best_algo = random.choice(available_algos)
 
-    best = max(scores, key=lambda k: (scores[k], random.random()))
-    return best
+    return best_algo
 
-def pretty_recent(lst):
-    return ",".join(lst[-3:]) if lst else ""
+def get_algo_prediction(algo_name):
+    if algo_name == "Algorithm 1":
+        return algorithm_1()
+    elif algo_name == "Algorithm 2":
+        return algorithm_2()
+    else:
+        return random.choice(move_options)
 
 while True:
-    user_input = input("Enter your move (Rock, Paper, Scissors) or 'Quit' to stop: ").capitalize()
+    user_input = input(f"Enter your move (Rock, Paper, Scissors) or 'Quit' to stop: ").capitalize()
+
     if user_input == "Quit":
         log_print("Game ended by player.")
         break
@@ -108,81 +156,71 @@ while True:
     move_counts[user_input] += 1
 
     if len(player_history) > 1:
-        after_move_patterns[player_history[-2]][player_history[-1]] += 1
+        last_move = player_history[-2]
+        current_move = player_history[-1]
+        after_move_patterns[last_move][current_move] += 1
 
-    # Both algorithms make predictions for the bot move (they return the bot move)
-    algo1_bot_move = algorithm_1()
-    algo2_bot_move = algorithm_2()
+    # Get predictions from both algorithms
+    prediction_1 = algorithm_1()
+    prediction_2 = algorithm_2()
 
-    # Choose which algorithm to use this round (based on recent performance and rumble)
+    # Choose the bot move from the best algorithm
     chosen_algo = choose_algorithm()
-    predicted_bot_move = algo1_bot_move if chosen_algo == "Algorithm 1" else algo2_bot_move
+    predicted_move = get_algo_prediction(chosen_algo)
 
-    # Small randomness to make bot less predictable
-    if random.random() < 0.1:
+    if random.random() < 0.1:  # randomness to keep AI less predictable
         bot_move = random.choice(move_options)
     else:
-        bot_move = predicted_bot_move
-
-    bot_history.append(bot_move)
+        bot_move = predicted_move
 
     winner = get_winner(user_input, bot_move)
 
     if winner == "Draw":
         score["Draws"] += 1
         log_print("It's a draw!")
+        outcome = "Draw"
     elif winner == "Player":
         score["Player"] += 1
         log_print("You win this round!")
+        outcome = "Loss"  # Bot perspective
     else:
         score["Bot"] += 1
         log_print("Bot wins this round!")
+        outcome = "Win"  # Bot perspective
+
+    # Now update performance for both algorithms separately
+    # Determine Algorithm 1 outcome against player move
+    algo1_outcome = "Draw" if prediction_1 == user_input else (
+        "Win" if beats[prediction_1] == user_input else "Loss"
+    )
+    update_algo_performance("Algorithm 1", algo1_outcome)
+
+    # Determine Algorithm 2 outcome against player move
+    algo2_outcome = "Draw" if prediction_2 == user_input else (
+        "Win" if beats[prediction_2] == user_input else "Loss"
+    )
+    update_algo_performance("Algorithm 2", algo2_outcome)
 
     total_predictions += 1
     if loses_to[user_input] == bot_move:
         correct_predictions += 1
     accuracy = (correct_predictions / total_predictions) * 100 if total_predictions > 0 else 0
 
-    # Update performance for both algorithms based on what they predicted (bot move they would have played)
-    for name, alg_bot_move in (("Algorithm 1", algo1_bot_move), ("Algorithm 2", algo2_bot_move)):
-        # Compare algorithm's bot-move against the actual player's move
-        outcome = get_winner(user_input, alg_bot_move)
-        if outcome == "Bot":
-            update_algo_performance(name, "Win")
-        elif outcome == "Player":
-            update_algo_performance(name, "Loss")
-        else:
-            update_algo_performance(name, "Draw")
-
     total_moves = sum(move_counts.values())
     move_percents = {m: round((move_counts[m] / total_moves) * 100, 1) for m in move_options}
 
-    log_print(f"Player: {user_input} | Bot: {bot_move}")
-    log_print(f"Bot used algorithm: {chosen_algo}")
-    log_print(f"Current Score -> Player: {score['Player']} | Bot: {score['Bot']} | Draws: {score['Draws']}")
-    log_print(f"Move Percentages -> Rock: {move_percents['Rock']}% | Paper: {move_percents['Paper']}% | Scissors: {move_percents['Scissors']}%")
-    log_print(f"AI Prediction Accuracy: {accuracy:.2f}%")
-    log_print("--------------------------------------------------")
-    log_print(f"{'Algorithm':15} | {'Wins':>6} | {'Losses':>6} | {'Draws':>6} | {'Recent(3)':>12} | {'Rumbled':>7}")
-    for alg_name, data in algo_scores.items():
-        rec = pretty_recent(data["Recent"])
-        rum = "YES" if alg_name in rumbled_algos else "NO"
-        log_print(f"{alg_name:15} | {data['Wins']:6} | {data['Losses']:6} | {data['Draws']:6} | {rec:12} | {rum:7}")
-    log_print("--------------------------------------------------")
-
-    # Also print the table to console for immediate feedback
-    print(f"\nBot used: {chosen_algo} | Bot Move: {bot_move}")
-    print(f"Player: {user_input} | Bot: {bot_move} -> {winner}")
-    print(f"Score -> Player: {score['Player']} | Bot: {score['Bot']} | Draws: {score['Draws']}")
+    # Print game state and algorithm performance table
+    print(f"\nPlayer: {user_input} | Bot: {bot_move}")
+    print(f"Current Score -> Player: {score['Player']} | Bot: {score['Bot']} | Draws: {score['Draws']}")
     print(f"Move Percentages -> Rock: {move_percents['Rock']}% | Paper: {move_percents['Paper']}% | Scissors: {move_percents['Scissors']}%")
     print(f"AI Prediction Accuracy: {accuracy:.2f}%")
-    print("--------------------------------------------------")
-    print(f"{'Algorithm':15} | {'Wins':>6} | {'Losses':>6} | {'Draws':>6} | {'Recent(3)':>12} | {'Rumbled':>7}")
-    for alg_name, data in algo_scores.items():
-        rec = pretty_recent(data["Recent"])
-        rum = "YES" if alg_name in rumbled_algos else "NO"
-        print(f"{alg_name:15} | {data['Wins']:6} | {data['Losses']:6} | {data['Draws']:6} | {rec:12} | {rum:7}")
-    print("--------------------------------------------------\n")
+    print("\nAlgorithm Performance:")
+    print(f"{'Algorithm':<12} | {'Wins':>4} | {'Losses':>6} | {'Draws':>5} | {'Recent (last 5)':<20} | {'Status':<7}")
+    print("-" * 70)
+    for algo, data in algo_scores.items():
+        status = "Rumbled" if algo in rumbled_algos else "Active"
+        recent_str = ','.join(data["Recent"])
+        print(f"{algo:<12} | {data['Wins']:>4} | {data['Losses']:>6} | {data['Draws']:>5} | {recent_str:<20} | {status:<7}")
 
 print("\nFinal Score:")
 print(f"Player: {score['Player']} | Bot: {score['Bot']} | Draws: {score['Draws']}")
