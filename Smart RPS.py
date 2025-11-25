@@ -173,7 +173,7 @@ while True:
     move_percents = {m: round((move_counts[m] / total_moves) * 100, 1) for m in move_options}
 
     log_print("\n" + "-" * 60)
-    log_print(f"Algorithm Used: {algo}")
+    log_print(f"Algo Used: {algo}")
     log_print(f"Player Move: {user}")
     log_print(f"Bot Move: {bot}")
     log_print(msg)  
